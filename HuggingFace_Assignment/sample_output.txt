@@ -1,0 +1,24 @@
+Input passage:
+Green Valley Library opened in 2010. The library is located in Brookfield. The library contains 12000 books. Maria Chen is the library director. The library opens at nine in the morning on weekdays. The library offers free computer classes on Saturdays. Students can borrow up to four books at a time. The borrowing period is fourteen days.
+
+Quiz:
+
+Question 1: In what year did Green Valley Library open?
+Answer: 2010
+Confidence: 0.997
+
+Question 2: Where is the library located?
+Answer: Brookfield
+Confidence: 0.975
+
+Question 3: How many books are in the library?
+Answer: 12000
+Confidence: 0.882
+
+Question 4: What is Maria Chen's job title?
+Answer: director
+Confidence: 0.482
+
+Question 5: What day of the week does the library offer free computer classes?
+Answer: Saturdays
+Confidence: 0.751
