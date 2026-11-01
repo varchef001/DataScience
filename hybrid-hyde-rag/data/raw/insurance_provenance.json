@@ -1,0 +1,14 @@
+{
+  "upstream": "https://github.com/shuzi/insuranceQA",
+  "commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+  "documents": 500,
+  "sampling": "Include all annotated answer IDs, then fill to 500 unique texts from answer IDs sorted numerically and shuffled with Python random seed 42.",
+  "original_files": [
+    "V2/vocabulary",
+    "V2/InsuranceQA.label2answer.raw.encoded.gz",
+    "V2/InsuranceQA.question.anslabel.raw.100.pool.solr.test.encoded.gz",
+    "V2/InsuranceQA.question.anslabel.raw.100.pool.solr.valid.encoded.gz"
+  ],
+  "evaluation": "36 test + 12 development; 6 and 2 per query type. Single-source question IDs preserve original split. Multi-hop and unavailable questions are authored. Gold spans are selected from source answers.",
+  "limitation": "Small constructed subset, not the official full InsuranceQA benchmark. Labels are not exhaustive; historical answers may be dated or wrong."
+}

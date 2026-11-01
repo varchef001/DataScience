@@ -1,0 +1,1674 @@
+[
+  {
+    "question_id": "ins_test_01",
+    "question": "Will Medicare Pay For Smoking Cessation?",
+    "expected_answer": "Medicare will not pay for smoking cessation products such as nicotine substitutes (Nicorette gum, nicotine patch, etc), and Medicare will not pay for pills that reduce the craving to smoke.",
+    "acceptable_answers": [
+      "Medicare will not pay for smoking cessation products such as nicotine substitutes (Nicorette gum, nicotine patch, etc), and Medicare will not pay for pills that reduce the craving to smoke. But Medicare will pay for up to 8 face-to-face smoking cessation counseling sessions with a qualified Medicare doctor during a 12 month period."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_9128",
+        "start": 0,
+        "end": 189,
+        "quote": "Medicare will not pay for smoking cessation products such as nicotine substitutes (Nicorette gum, nicotine patch, etc), and Medicare will not pay for pills that reduce the craving to smoke."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_9128_128_0"
+      ],
+      "220": [
+        "insuranceqa_9128_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 4,
+      "original_question": "Will Medicare Pay For Smoking Cessation?",
+      "answer_ids": [
+        "9128"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_02",
+    "question": "What Is A Health Insurance Claim Form 1500?",
+    "expected_answer": "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims.",
+    "acceptable_answers": [
+      "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_23154",
+        "start": 0,
+        "end": 457,
+        "quote": "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_23154_128_0"
+      ],
+      "220": [
+        "insuranceqa_23154_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 20,
+      "original_question": "What Is A Health Insurance Claim Form 1500?",
+      "answer_ids": [
+        "23154"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_03",
+    "question": "What Is Centers For Medicare And Medicaid?",
+    "expected_answer": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency.",
+    "acceptable_answers": [
+      "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency. They are responsible for running several federal health care programs with Medicare and Medicaid being the 2 main programs. Medicare is a federal health insurance program that you are eligible for at age 65 or if you qualify from a disability. Medicaid is a federal and state run program. It provides health care services for certain individuals who qualify based on their income ."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_17555",
+        "start": 0,
+        "end": 117,
+        "quote": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_17555_128_0"
+      ],
+      "220": [
+        "insuranceqa_17555_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 26,
+      "original_question": "What Is Centers For Medicare And Medicaid?",
+      "answer_ids": [
+        "17555"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_04",
+    "question": "Does Medicare Cover Januvia?",
+    "expected_answer": "Medicare covers Januvia by Medicare Part D,the Medicare Prescription Drug Plan.",
+    "acceptable_answers": [
+      "Medicare covers Januvia by Medicare Part D,the Medicare Prescription Drug Plan. Januvia is an oral medication that helps lower blood sugar and prevent diabetic complications in people with type 2 diabetes. It is not indicated for persons with type 1 diabetes or those with diabetic ketoacidosis. The generic name for Januvia is sitagliptin."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_22708",
+        "start": 0,
+        "end": 79,
+        "quote": "Medicare covers Januvia by Medicare Part D,the Medicare Prescription Drug Plan."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_22708_128_0"
+      ],
+      "220": [
+        "insuranceqa_22708_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 42,
+      "original_question": "Does Medicare Cover Januvia?",
+      "answer_ids": [
+        "22708"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_05",
+    "question": "How Long Will Medicare Pay For A SNF?",
+    "expected_answer": "Original Medicare includes coverage as an inpatient in a SNF (skilled nursing facility).",
+    "acceptable_answers": [
+      "Original Medicare includes coverage as an inpatient in a SNF (skilled nursing facility). If you qualify for coverage, Medicare will cover the full cost of care for up to 20 days. For days 21 through 100, Medicare will pay a portion of the cost and you will be responsible for a daily copay. ($148 in 2013)"
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_27045",
+        "start": 0,
+        "end": 88,
+        "quote": "Original Medicare includes coverage as an inpatient in a SNF (skilled nursing facility)."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_27045_128_0"
+      ],
+      "220": [
+        "insuranceqa_27045_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 46,
+      "original_question": "How Long Will Medicare Pay For A SNF?",
+      "answer_ids": [
+        "27045"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_06",
+    "question": "What Is Medigap Blue?",
+    "expected_answer": "Vermont BlueCross BlueShield has a health insurance product call Medigap Blue.",
+    "acceptable_answers": [
+      "Vermont BlueCross BlueShield has a health insurance product call Medigap Blue. It provides Medicare Supplement coverage to Original Medicare Part A and Part B. They offer Medigap Plans A, C, D, F and N with all the standardized benefits as with other insurance companies. Their premium rates are grouped into under 65 disabled and over 65. Please let me know if I can offer further assistance."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_20050",
+        "start": 0,
+        "end": 78,
+        "quote": "Vermont BlueCross BlueShield has a health insurance product call Medigap Blue."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_20050_128_0"
+      ],
+      "220": [
+        "insuranceqa_20050_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 16,
+      "original_question": "What Is Medigap Blue?",
+      "answer_ids": [
+        "20050"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_test_07",
+    "question": "Could my choice of dog breed make an insurer reject my home rather than charge extra?",
+    "expected_answer": "Most insurance companies do not surcharge for animals.",
+    "acceptable_answers": [
+      "Most insurance companies do not surcharge for animals. Instead they exclude certain breeds, restrict payment on others and/or decline the property completely. Dog bites are a major problem for insurance companies and they are more likely to deny coverage and exclude coverage for certain breeds should you purchase the animal following the start of the policy."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_26439",
+        "start": 0,
+        "end": 54,
+        "quote": "Most insurance companies do not surcharge for animals."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_26439_128_0"
+      ],
+      "220": [
+        "insuranceqa_26439_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 2,
+      "original_question": "Does Owning A Pitbull Raise Homeowners Insurance?",
+      "answer_ids": [
+        "26439"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_08",
+    "question": "What insurer characteristics and benefit conditions matter when choosing coverage for extended care?",
+    "expected_answer": "Every product purchase has a value proposition to assess, but the most critical items are the long term care insurance companys financial and claims paying ability as well as the contractual language in the policy relating to the triggering of policy benefits.",
+    "acceptable_answers": [
+      "Every product purchase has a value proposition to assess, but the most critical items are the long term care insurance companys financial and claims paying ability as well as the contractual language in the policy relating to the triggering of policy benefits. The contractual language can be a daunting read for a consumer. It is recommended to secure a long term care expert to review the policy benefits and how the work"
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6996",
+        "start": 0,
+        "end": 260,
+        "quote": "Every product purchase has a value proposition to assess, but the most critical items are the long term care insurance companys financial and claims paying ability as well as the contractual language in the policy relating to the triggering of policy benefits."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_6996_128_0"
+      ],
+      "220": [
+        "insuranceqa_6996_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 3,
+      "original_question": "What Should You Look For In Long Term Care Insurance?",
+      "answer_ids": [
+        "6996"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_09",
+    "question": "Who should a tenant contact to report a covered loss?",
+    "expected_answer": "To submit a claim for bodily injury, property damage or damage to personal property on your renters policy, contact either your agent or the direct number provided by your insurance company.",
+    "acceptable_answers": [
+      "To submit a claim for bodily injury, property damage or damage to personal property on your renters policy, contact either your agent or the direct number provided by your insurance company. Before you file the claim you should understand that the claim might trigger an increase in future premiums. If the damage is near the deductible you might pay less by not filing the claim. Discuss this with your agent if you have the time. If you are sued, notify the company immediately."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_19814",
+        "start": 0,
+        "end": 190,
+        "quote": "To submit a claim for bodily injury, property damage or damage to personal property on your renters policy, contact either your agent or the direct number provided by your insurance company."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_19814_128_0"
+      ],
+      "220": [
+        "insuranceqa_19814_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 9,
+      "original_question": "How To Submit A Renters Insurance Claim?",
+      "answer_ids": [
+        "19814"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_10",
+    "question": "Can a business fund income-protection coverage for its workers?",
+    "expected_answer": "The business can pay for short or long term disability insurance in a employer sponsored group plan.",
+    "acceptable_answers": [
+      "The business can pay for short or long term disability insurance in a employer sponsored group plan. But some corporations don't carry long term disability in their group plans, so they offer long term disability to their key executives as an extra retention benefit. They may be able to deduct the premiums, however if they do the benefits may be taxable."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_26054",
+        "start": 0,
+        "end": 100,
+        "quote": "The business can pay for short or long term disability insurance in a employer sponsored group plan."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_26054_128_0"
+      ],
+      "220": [
+        "insuranceqa_26054_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 13,
+      "original_question": "Can A Corporation Pay For Disability Insurance?",
+      "answer_ids": [
+        "26054"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_11",
+    "question": "A tree lands on my vehicle. Which type of policy might respond?",
+    "expected_answer": "Your homeowners insurance would not cover this sort of incident, but your auto insurance may if you have comprehense insurance coverage less your deductible.",
+    "acceptable_answers": [
+      "Your homeowners insurance would not cover this sort of incident, but your auto insurance may if you have comprehense insurance coverage less your deductible. Read your policy completely to understand the coverage provided and any exclusions that may be contained within or contact your local agent to have them go overth policywith you."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_12753",
+        "start": 0,
+        "end": 157,
+        "quote": "Your homeowners insurance would not cover this sort of incident, but your auto insurance may if you have comprehense insurance coverage less your deductible."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_12753_128_0"
+      ],
+      "220": [
+        "insuranceqa_12753_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 14,
+      "original_question": "Will Homeowners Insurance Cover A Tree Falling On My Car?",
+      "answer_ids": [
+        "12753"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_12",
+    "question": "Are workplace injury benefits and general inability-to-work coverage the same thing?",
+    "expected_answer": "No, workers compensation is not the same as disability insurance.",
+    "acceptable_answers": [
+      "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6935",
+        "start": 0,
+        "end": 65,
+        "quote": "No, workers compensation is not the same as disability insurance."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_6935_128_0"
+      ],
+      "220": [
+        "insuranceqa_6935_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 17,
+      "original_question": "Is Workers Comp The Same As Disability Insurance?",
+      "answer_ids": [
+        "6935"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_13",
+    "question": "I am worried that a prolonged illness could stop me from earning money while my normal household expenses continue. According to this reference collection, what purpose does disability insurance serve?",
+    "expected_answer": "Disability Insurance replaces up to 80% of your income at a time when you cannot work.",
+    "acceptable_answers": [
+      "Disability Insurance replaces up to 80% of your income at a time when you cannot work. For most people, receiving their income is a necessary factor to live a normal life without tremendous upheaval. Granted, becoming disabled itself can carry emotional, social and physical trauma. But to take away income complicates things at a time when further disruption is not needed. Social Security Disability Insurance does exist, but it takes longer to get, does not replaces as much income as an individual policy, and requires that you cannot work at any job."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_13633",
+        "start": 0,
+        "end": 86,
+        "quote": "Disability Insurance replaces up to 80% of your income at a time when you cannot work."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_13633_128_0"
+      ],
+      "220": [
+        "insuranceqa_13633_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 18,
+      "original_question": "Is Disability Insurance Necessary?",
+      "answer_ids": [
+        "13633"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_14",
+    "question": "I want to compare car insurance quotes, but I have heard different people recommend different companies. Does this collection identify one company that is always cheapest, or does the answer depend on where I live?",
+    "expected_answer": "The least expensive auto insurance company?",
+    "acceptable_answers": [
+      "The least expensive auto insurance company? Actually, there are about a dozen answers. Depending on the state where you live, it could be State Farm, Progressive, Esurance, Farmers, Geico, Allstate, Erie, Liberty Mutual or one of many other companies. Rates are based on many factors and in any given area, it could be one of many options. An experienced broker and their website is a great resource to shop, compare, and find the best car insurance rates in the US!"
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_22750",
+        "start": 0,
+        "end": 43,
+        "quote": "The least expensive auto insurance company?"
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_22750_128_0"
+      ],
+      "220": [
+        "insuranceqa_22750_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 25,
+      "original_question": "Who Is The Least Expensive Auto Insurance?",
+      "answer_ids": [
+        "22750"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_15",
+    "question": "I rent my home and some of my possessions have been damaged. I have never reported a loss before and do not remember the name of the person who sold the policy. How can I start the claims process?",
+    "expected_answer": "It is very easy to file a renter's insurance claim.",
+    "acceptable_answers": [
+      "It is very easy to file a renter's insurance claim. You should call/contact the broker/agent that is servicing your policy. If you do not know who it is, then call the insurer directly. You will be asked some questions regarding the items that were damaged, stolen etc...so be prepared to provide information. If it is a liability claim, more extensive information may be needed."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_16207",
+        "start": 0,
+        "end": 51,
+        "quote": "It is very easy to file a renter's insurance claim."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_16207_128_0"
+      ],
+      "220": [
+        "insuranceqa_16207_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 27,
+      "original_question": "How To File A Renters Insurance Claim?",
+      "answer_ids": [
+        "16207"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_16",
+    "question": "I am reading a historical insurance reference collection and want to understand the size of the auto insurance market described there. Which company does its answer identify as the biggest car insurer in the United States?",
+    "expected_answer": "The biggest car insurance company in the US is State Farm, followed by Allstate and Berkshire Hathaway Insurance Group.",
+    "acceptable_answers": [
+      "The biggest car insurance company in the US is State Farm, followed by Allstate and Berkshire Hathaway Insurance Group. Progressive, Farmers and USAA are also very large companies. In your particular state, you may find other insurers to be more popular; such as Erie, Travelers or Geico. As experienced brokers, our job is to compare and find the lowest rates available in your area and present you with the best options for your specific vehicles."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_16895",
+        "start": 0,
+        "end": 119,
+        "quote": "The biggest car insurance company in the US is State Farm, followed by Allstate and Berkshire Hathaway Insurance Group."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_16895_128_0"
+      ],
+      "220": [
+        "insuranceqa_16895_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 29,
+      "original_question": "What Is The Biggest Car Insurance Company In Us?",
+      "answer_ids": [
+        "16895"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_17",
+    "question": "I have a pool at my house and am trying to understand whether damage involving it would be covered. Without supplying a cause of loss or my policy wording, can this reference give a definite coverage decision?",
+    "expected_answer": "More than likely not.",
+    "acceptable_answers": [
+      "More than likely not. It would depend on the policy language, the cause of the pool causing the damage and the type of damage caused. This question would be best discussed with one of the claims adjusters of the company that you have the policy thru. As alway read your policy completely to know what is covered or what is excluded or call your local agent and have them explain the coverage and exclusions of the policy."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_3321",
+        "start": 0,
+        "end": 21,
+        "quote": "More than likely not."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_3321_128_0"
+      ],
+      "220": [
+        "insuranceqa_3321_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 30,
+      "original_question": "Does Home Owners Insurance Cover Pool Damage?",
+      "answer_ids": [
+        "3321"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_18",
+    "question": "I am comparing disability insurance and have come across a waiting period before payments start. What does the reference call this period, and what reserve-based example does it give?",
+    "expected_answer": "You need to select an elimination period.",
+    "acceptable_answers": [
+      "The #1 thing you need to know about disability insurance is that it is paycheck protection in times of prolonged sickness and injury. You need to select an elimination period. Most Americans have 90 days in cash reserves, so a 90 day elimination period is a consideration. When claims are filled and the elimination period satisfied, the benefits are paid tax free."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_26351",
+        "start": 134,
+        "end": 175,
+        "quote": "You need to select an elimination period."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_26351_128_0"
+      ],
+      "220": [
+        "insuranceqa_26351_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 34,
+      "original_question": "What Basics Do I Need To Know About Disability Insurance?",
+      "answer_ids": [
+        "26351"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_test_19",
+    "question": "Is it worth the expense?",
+    "expected_answer": "If you have family history that has reoccurring nursing home care or home care assistance, you may need long term care insurance.",
+    "acceptable_answers": [
+      "If you have family history that has reoccurring nursing home care or home care assistance, you may need long term care insurance. If you play the morbidity odds of geriatric living, youll need long term care insurance. If you generated extended care expenses that you cannot financially cover, you need long term care insurance. If you play the morbidity odds of geriatric living, youll need long term care insurance. If you generated extended care expenses that you cannot financially cover, you need long term care insurance. A male and a female age 60, nonsmoker and in good health with a full coverage and inflation rider from a quality long term care insurance company will pay around $300 a month for the max coverage."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_20677",
+        "start": 0,
+        "end": 129,
+        "quote": "If you have family history that has reoccurring nursing home care or home care assistance, you may need long term care insurance."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_20677_128_0"
+      ],
+      "220": [
+        "insuranceqa_20677_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 35,
+      "original_question": "Is Long Term Care Insurance Worth The Expense?",
+      "answer_ids": [
+        "20677"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Is Long Term Care Insurance Worth The Expense?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_20",
+    "question": "Does it cover pregnancy?",
+    "expected_answer": "Under the affordable care act, every health insurance plan must cover the 10 essential health benefits - maternity care (including pregnancy) is one of the essential health benefits.",
+    "acceptable_answers": [
+      "Under the affordable care act, every health insurance plan must cover the 10 essential health benefits - maternity care (including pregnancy) is one of the essential health benefits. Therefore every individual plan will provide some form of coverage for that type of benefit. How much a plan will pay when that benefit is used will vary from plan to plan. It's always helpful to consult with an experienced health insurance broker to determine which plan will be most suitable for your specific needs and budget. I hope the information is helpful - please feel free to contact me for help and if you have any other questions. Thanks very much."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_9246",
+        "start": 0,
+        "end": 182,
+        "quote": "Under the affordable care act, every health insurance plan must cover the 10 essential health benefits - maternity care (including pregnancy) is one of the essential health benefits."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_9246_128_0"
+      ],
+      "220": [
+        "insuranceqa_9246_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 37,
+      "original_question": "Which Individual Health Insurance Covers Pregnancy?",
+      "answer_ids": [
+        "9246"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Which Individual Health Insurance Covers Pregnancy?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_21",
+    "question": "Will it increase my premium?",
+    "expected_answer": "Wood burning devices are a concern to the underwriter for a homeowners policy because they have an open flame inside the house.",
+    "acceptable_answers": [
+      "Wood burning devices are a concern to the underwriter for a homeowners policy because they have an open flame inside the house. Insurance companies rarely change their rate based upon an increased exposure. Instead they are more likely to not accept the risk at all. A pellet stove is probably the least dangerous wood burning device. Many companies will issue a standard homeowners policy on a home with pellet stove."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_10720",
+        "start": 0,
+        "end": 127,
+        "quote": "Wood burning devices are a concern to the underwriter for a homeowners policy because they have an open flame inside the house."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_10720_128_0"
+      ],
+      "220": [
+        "insuranceqa_10720_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 38,
+      "original_question": "Will A Pellet Stove Increase Homeowners Insurance?",
+      "answer_ids": [
+        "10720"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Will A Pellet Stove Increase Homeowners Insurance?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_22",
+    "question": "Can I still get accepted?",
+    "expected_answer": "Under the Affordable Care Act (ACA) anyone that applies for health insurance will be accepted regardless of medical conditions.",
+    "acceptable_answers": [
+      "Under the Affordable Care Act (ACA) anyone that applies for health insurance will be accepted regardless of medical conditions. Being obese is no longer an issue in purchasing health insurance. You can purchase health insurance during the annual open enrollment period that begins around November 1st for January 1, 2015 effective dates."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_1434",
+        "start": 0,
+        "end": 127,
+        "quote": "Under the Affordable Care Act (ACA) anyone that applies for health insurance will be accepted regardless of medical conditions."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_1434_128_0"
+      ],
+      "220": [
+        "insuranceqa_1434_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 43,
+      "original_question": "Can I Get Health Insurance If I Am Obese?",
+      "answer_ids": [
+        "1434"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Can I Get Health Insurance If I Am Obese?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_23",
+    "question": "What does it exclude?",
+    "expected_answer": "A few of the exclusions under a typical renters insurance policy are: a.",
+    "acceptable_answers": [
+      "A few of the exclusions under a typical renters insurance policy are: a. property covered by any scheduled insurance; b. animals, insects, birds, fish, worms and bees; c. motor vehicles including their parts and equipment; d. motorized vehicles including their parts and equipment, except those vehicles currently operational and used to service the insured premises; e. aircraft , including their tires, parts and equipment; f. property of roomers and boarders who are not insureds ; g. trees, plants, shrubs and lawns; They are covered under the Incidental Coverage of this form; and h. farm personal property. Please read your policy completely to understand the coverage provided and any exclusions that there may be."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6679",
+        "start": 0,
+        "end": 72,
+        "quote": "A few of the exclusions under a typical renters insurance policy are: a."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_6679_128_0"
+      ],
+      "220": [
+        "insuranceqa_6679_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 44,
+      "original_question": "What Does Renters Insurance Not Cover?",
+      "answer_ids": [
+        "6679"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "What Does Renters Insurance Not Cover?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_24",
+    "question": "Is it an inheritance?",
+    "expected_answer": "Life insurance is an indemnification product to protect the beneficiaries of the insured against economic loss.",
+    "acceptable_answers": [
+      "Life insurance is an indemnification product to protect the beneficiaries of the insured against economic loss. If economic loss occurred because of taxes during the transfer of the estate from one generation to the next, then your inheritance would be reduced by taxation. Life insurance would pay that tax, so you would suffer a reduction in your inheritance. Life insurance can also create an estate, so to that degree life insurance would be an inheritance."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_18229",
+        "start": 0,
+        "end": 111,
+        "quote": "Life insurance is an indemnification product to protect the beneficiaries of the insured against economic loss."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_18229_128_0"
+      ],
+      "220": [
+        "insuranceqa_18229_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "test",
+      "upstream_row_zero_based": 51,
+      "original_question": "Is Life Insurance An Inheritance?",
+      "answer_ids": [
+        "18229"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Is Life Insurance An Inheritance?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_dev_01",
+    "question": "What Is Modifier GW For Medicare?",
+    "expected_answer": "That is a tough question, I am not totally familiar with medicare billing codes.",
+    "acceptable_answers": [
+      "That is a tough question, I am not totally familiar with medicare billing codes. However according to my research, the GW modifier is used when a provider of medical services performs services that are not related to a hospice diagnosis. Certain Medicare beneficiaries can choose hospice benefits instead of Medicare benefits for treatment and management of their terminal condition. reference: WEBSITELINK"
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6201",
+        "start": 0,
+        "end": 80,
+        "quote": "That is a tough question, I am not totally familiar with medicare billing codes."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_6201_128_0"
+      ],
+      "220": [
+        "insuranceqa_6201_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 8,
+      "original_question": "What Is Modifier GW For Medicare?",
+      "answer_ids": [
+        "6201"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_dev_02",
+    "question": "Where Can I Buy Long Term Care Insurance?",
+    "expected_answer": "You can buy Long Term Care Insurance through brokers or agents who advertise in the Yellow Pages or on the internet.",
+    "acceptable_answers": [
+      "You can buy Long Term Care Insurance through brokers or agents who advertise in the Yellow Pages or on the internet. Many Life Insurance agents also sell Long Term Care Insurance because many Life Insurance companies also offer Long Term Care policies. The agent must have special training as required by their state in order to sell Partnership Long Term Care Insurance."
+    ],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_22491",
+        "start": 0,
+        "end": 116,
+        "quote": "You can buy Long Term Care Insurance through brokers or agents who advertise in the Yellow Pages or on the internet."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_22491_128_0"
+      ],
+      "220": [
+        "insuranceqa_22491_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 1,
+      "original_question": "Where Can I Buy Long Term Care Insurance?",
+      "answer_ids": [
+        "22491"
+      ],
+      "adaptation": "original"
+    }
+  },
+  {
+    "question_id": "ins_dev_03",
+    "question": "Will the public program pay the patient share that it requires?",
+    "expected_answer": "Sadly no. Medicare does cover a lot of the medical and hospital expenses incurred by a hospital stay.",
+    "acceptable_answers": [
+      "Sadly no. Medicare does cover a lot of the medical and hospital expenses incurred by a hospital stay. But it does not cover the co-pays required by Medicare. Medicare will cover 80% leaving the insured to cover the other 20% along with a payment due as a copayment. These payments must be made by the insured or by an insurance policy."
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_4436",
+        "start": 0,
+        "end": 101,
+        "quote": "Sadly no. Medicare does cover a lot of the medical and hospital expenses incurred by a hospital stay."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_4436_128_0"
+      ],
+      "220": [
+        "insuranceqa_4436_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 0,
+      "original_question": "Does Medicare Pick Up Co Pays?",
+      "answer_ids": [
+        "4436"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_dev_04",
+    "question": "How can a tenant arrange coverage for belongings, possibly alongside car coverage?",
+    "expected_answer": "Call a Local Agent.",
+    "acceptable_answers": [
+      "Call a Local Agent. If you already have Auto Insurance or another line with a company, you will probably get a discount for \"bundling\" your coverages together. Otherwise, there are a few questions to answer about your stuff and the building and you should be able to get covered right away!"
+    ],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_12641",
+        "start": 0,
+        "end": 19,
+        "quote": "Call a Local Agent."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_12641_128_0"
+      ],
+      "220": [
+        "insuranceqa_12641_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 2,
+      "original_question": "How To Go About Getting Renters Insurance?",
+      "answer_ids": [
+        "12641"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_dev_05",
+    "question": "I am reading this historical collection about Louisiana life insurance benefits. How does its answer distinguish a named living beneficiary from proceeds that become part of the estate?",
+    "expected_answer": "In a very general sense, Louisiana does not tax life insurance benefits if left to a beneficiary who is not the estate.",
+    "acceptable_answers": [
+      "In a very general sense, Louisiana does not tax life insurance benefits if left to a beneficiary who is not the estate. If the beneficiary is the estate, or life insurance proceeds end up in the estate because there was no living beneficiary listed on the policy, then the money will go through probate and subject to taxes and fees."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_11370",
+        "start": 0,
+        "end": 119,
+        "quote": "In a very general sense, Louisiana does not tax life insurance benefits if left to a beneficiary who is not the estate."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_11370_128_0"
+      ],
+      "220": [
+        "insuranceqa_11370_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 7,
+      "original_question": "Does Louisiana Tax Life Insurance Benefits?",
+      "answer_ids": [
+        "11370"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_dev_06",
+    "question": "Suppose a traditional policy for long-term care exhausts either its years or its money, but the person still needs help. What funding source does this collection say comes next?",
+    "expected_answer": "If somone has a traditional Long Term Care insurance policy that runs out of years of coverage, or runs out of money to to cover their LTC needs, they would need to begin paying for their long term care from their private funds.",
+    "acceptable_answers": [
+      "If somone has a traditional Long Term Care insurance policy that runs out of years of coverage, or runs out of money to to cover their LTC needs, they would need to begin paying for their long term care from their private funds. If that runs low, they would do a Medicaid spend down so that Medicaid will pay for their LTC needs. With a Partnership Long Term Care policy, assets (but not income) are protected from the Medicaid spend down. The amount of assets that are protected depend upon the variables and features of the Partnership LTC policy."
+    ],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6023",
+        "start": 0,
+        "end": 228,
+        "quote": "If somone has a traditional Long Term Care insurance policy that runs out of years of coverage, or runs out of money to to cover their LTC needs, they would need to begin paying for their long term care from their private funds."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_6023_128_0"
+      ],
+      "220": [
+        "insuranceqa_6023_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 10,
+      "original_question": "What Happens When Long Term Care Insurance Runs Out?",
+      "answer_ids": [
+        "6023"
+      ],
+      "adaptation": "authored variant"
+    }
+  },
+  {
+    "question_id": "ins_dev_07",
+    "question": "Does my employer have to give it to me?",
+    "expected_answer": "Your employer does not have to give you health insurance (depending on size etc...) In fact, you will see many small (and perhaps larger) businesses in 2014 opt out of providing health insurance to employees.",
+    "acceptable_answers": [
+      "Your employer does not have to give you health insurance (depending on size etc...) In fact, you will see many small (and perhaps larger) businesses in 2014 opt out of providing health insurance to employees. They will take the penalty and use the savings to be more competitive in their markets. Employees can be helped by experienced brokers since we can shop for them and find the best options."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_24932",
+        "start": 0,
+        "end": 208,
+        "quote": "Your employer does not have to give you health insurance (depending on size etc...) In fact, you will see many small (and perhaps larger) businesses in 2014 opt out of providing health insurance to employees."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_24932_128_0"
+      ],
+      "220": [
+        "insuranceqa_24932_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 12,
+      "original_question": "Does My Employer Have To Give Me Health Insurance?",
+      "answer_ids": [
+        "24932"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Does My Employer Have To Give Me Health Insurance?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_dev_08",
+    "question": "Is damage to it covered?",
+    "expected_answer": "Damage to a pool is covered as long as it is not an excluded loss such as \"wear and tear\", \"ground movement\" or a maintenance issue.",
+    "acceptable_answers": [
+      "Damage to a pool is covered as long as it is not an excluded loss such as \"wear and tear\", \"ground movement\" or a maintenance issue. Most home insurance policies cover all losses except what is excluded in the policy and a pool would be covered the same as your house."
+    ],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_12415",
+        "start": 0,
+        "end": 132,
+        "quote": "Damage to a pool is covered as long as it is not an excluded loss such as \"wear and tear\", \"ground movement\" or a maintenance issue."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_12415_128_0"
+      ],
+      "220": [
+        "insuranceqa_12415_220_0"
+      ]
+    },
+    "provenance": {
+      "dataset": "InsuranceQA V2",
+      "upstream_split": "valid",
+      "upstream_row_zero_based": 24,
+      "original_question": "Does Home Insurance Cover Pool Damage?",
+      "answer_ids": [
+        "12415"
+      ],
+      "adaptation": "authored variant"
+    },
+    "interpretation": "Does Home Insurance Cover Pool Damage?",
+    "evaluation_note": "Gold assumes this interpretation; a clarification request is also reasonable and token F1 will not reward it."
+  },
+  {
+    "question_id": "ins_test_25",
+    "question": "Answer both parts from the reference collection: Will Medicare Pay For Smoking Cessation? Also, What Is A Health Insurance Claim Form 1500?",
+    "expected_answer": "Medicare will not pay for smoking cessation products such as nicotine substitutes (Nicorette gum, nicotine patch, etc), and Medicare will not pay for pills that reduce the craving to smoke. A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_9128",
+        "start": 0,
+        "end": 189,
+        "quote": "Medicare will not pay for smoking cessation products such as nicotine substitutes (Nicorette gum, nicotine patch, etc), and Medicare will not pay for pills that reduce the craving to smoke."
+      },
+      {
+        "document_id": "insuranceqa_23154",
+        "start": 0,
+        "end": 457,
+        "quote": "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_23154_128_0",
+        "insuranceqa_9128_128_0"
+      ],
+      "220": [
+        "insuranceqa_23154_220_0",
+        "insuranceqa_9128_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_01",
+        "ins_test_02"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_26",
+    "question": "Answer both parts from the reference collection: What Is Centers For Medicare And Medicaid? Also, Does Medicare Cover Januvia?",
+    "expected_answer": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency. Medicare covers Januvia by Medicare Part D,the Medicare Prescription Drug Plan.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_17555",
+        "start": 0,
+        "end": 117,
+        "quote": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency."
+      },
+      {
+        "document_id": "insuranceqa_22708",
+        "start": 0,
+        "end": 79,
+        "quote": "Medicare covers Januvia by Medicare Part D,the Medicare Prescription Drug Plan."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_17555_128_0",
+        "insuranceqa_22708_128_0"
+      ],
+      "220": [
+        "insuranceqa_17555_220_0",
+        "insuranceqa_22708_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_03",
+        "ins_test_04"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_27",
+    "question": "Answer both parts from the reference collection: How Long Will Medicare Pay For A SNF? Also, What Is Medigap Blue?",
+    "expected_answer": "Original Medicare includes coverage as an inpatient in a SNF (skilled nursing facility). Vermont BlueCross BlueShield has a health insurance product call Medigap Blue.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_27045",
+        "start": 0,
+        "end": 88,
+        "quote": "Original Medicare includes coverage as an inpatient in a SNF (skilled nursing facility)."
+      },
+      {
+        "document_id": "insuranceqa_20050",
+        "start": 0,
+        "end": 78,
+        "quote": "Vermont BlueCross BlueShield has a health insurance product call Medigap Blue."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_20050_128_0",
+        "insuranceqa_27045_128_0"
+      ],
+      "220": [
+        "insuranceqa_20050_220_0",
+        "insuranceqa_27045_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_05",
+        "ins_test_06"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_28",
+    "question": "Answer both parts from the reference collection: Could my choice of dog breed make an insurer reject my home rather than charge extra? Also, Who should a tenant contact to report a covered loss?",
+    "expected_answer": "Most insurance companies do not surcharge for animals. To submit a claim for bodily injury, property damage or damage to personal property on your renters policy, contact either your agent or the direct number provided by your insurance company.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_26439",
+        "start": 0,
+        "end": 54,
+        "quote": "Most insurance companies do not surcharge for animals."
+      },
+      {
+        "document_id": "insuranceqa_19814",
+        "start": 0,
+        "end": 190,
+        "quote": "To submit a claim for bodily injury, property damage or damage to personal property on your renters policy, contact either your agent or the direct number provided by your insurance company."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_19814_128_0",
+        "insuranceqa_26439_128_0"
+      ],
+      "220": [
+        "insuranceqa_19814_220_0",
+        "insuranceqa_26439_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_07",
+        "ins_test_09"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_29",
+    "question": "Answer both parts from the reference collection: Can a business fund income-protection coverage for its workers? Also, A tree lands on my vehicle. Which type of policy might respond?",
+    "expected_answer": "The business can pay for short or long term disability insurance in a employer sponsored group plan. Your homeowners insurance would not cover this sort of incident, but your auto insurance may if you have comprehense insurance coverage less your deductible.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_26054",
+        "start": 0,
+        "end": 100,
+        "quote": "The business can pay for short or long term disability insurance in a employer sponsored group plan."
+      },
+      {
+        "document_id": "insuranceqa_12753",
+        "start": 0,
+        "end": 157,
+        "quote": "Your homeowners insurance would not cover this sort of incident, but your auto insurance may if you have comprehense insurance coverage less your deductible."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_12753_128_0",
+        "insuranceqa_26054_128_0"
+      ],
+      "220": [
+        "insuranceqa_12753_220_0",
+        "insuranceqa_26054_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_10",
+        "ins_test_11"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_30",
+    "question": "Answer both parts from the reference collection: I am worried that a prolonged illness could stop me from earning money while my normal household expenses continue. According to this reference collection, what purpose does disability insurance serve? Also, I am comparing disability insurance and have come across a waiting period before payments start. What does the reference call this period, and what reserve-based example does it give?",
+    "expected_answer": "Disability Insurance replaces up to 80% of your income at a time when you cannot work. You need to select an elimination period.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_13633",
+        "start": 0,
+        "end": 86,
+        "quote": "Disability Insurance replaces up to 80% of your income at a time when you cannot work."
+      },
+      {
+        "document_id": "insuranceqa_26351",
+        "start": 134,
+        "end": 175,
+        "quote": "You need to select an elimination period."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_13633_128_0",
+        "insuranceqa_26351_128_0"
+      ],
+      "220": [
+        "insuranceqa_13633_220_0",
+        "insuranceqa_26351_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_test_13",
+        "ins_test_18"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_dev_09",
+    "question": "Answer both parts from the reference collection: What Is Modifier GW For Medicare? Also, Will the public program pay the patient share that it requires?",
+    "expected_answer": "That is a tough question, I am not totally familiar with medicare billing codes. Sadly no. Medicare does cover a lot of the medical and hospital expenses incurred by a hospital stay.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_6201",
+        "start": 0,
+        "end": 80,
+        "quote": "That is a tough question, I am not totally familiar with medicare billing codes."
+      },
+      {
+        "document_id": "insuranceqa_4436",
+        "start": 0,
+        "end": 101,
+        "quote": "Sadly no. Medicare does cover a lot of the medical and hospital expenses incurred by a hospital stay."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_4436_128_0",
+        "insuranceqa_6201_128_0"
+      ],
+      "220": [
+        "insuranceqa_4436_220_0",
+        "insuranceqa_6201_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_dev_01",
+        "ins_dev_03"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_dev_10",
+    "question": "Answer both parts from the reference collection: Where Can I Buy Long Term Care Insurance? Also, Suppose a traditional policy for long-term care exhausts either its years or its money, but the person still needs help. What funding source does this collection say comes next?",
+    "expected_answer": "You can buy Long Term Care Insurance through brokers or agents who advertise in the Yellow Pages or on the internet. If somone has a traditional Long Term Care insurance policy that runs out of years of coverage, or runs out of money to to cover their LTC needs, they would need to begin paying for their long term care from their private funds.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "insuranceqa_22491",
+        "start": 0,
+        "end": 116,
+        "quote": "You can buy Long Term Care Insurance through brokers or agents who advertise in the Yellow Pages or on the internet."
+      },
+      {
+        "document_id": "insuranceqa_6023",
+        "start": 0,
+        "end": 228,
+        "quote": "If somone has a traditional Long Term Care insurance policy that runs out of years of coverage, or runs out of money to to cover their LTC needs, they would need to begin paying for their long term care from their private funds."
+      }
+    ],
+    "relevant_chunk_ids": {
+      "128": [
+        "insuranceqa_22491_128_0",
+        "insuranceqa_6023_128_0"
+      ],
+      "220": [
+        "insuranceqa_22491_220_0",
+        "insuranceqa_6023_220_0"
+      ]
+    },
+    "provenance": {
+      "adaptation": "authored two-source question",
+      "parent_questions": [
+        "ins_dev_02",
+        "ins_dev_06"
+      ]
+    }
+  },
+  {
+    "question_id": "ins_test_31",
+    "question": "What is the exact premium on my private policy VG-2026-901?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_test_32",
+    "question": "What is the current status of my private claim VG-2026-902?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_test_33",
+    "question": "What password unlocks my insurer account VG-2026-903?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_test_34",
+    "question": "What is the deductible printed on my private policy VG-2026-904?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_test_35",
+    "question": "Who is the beneficiary I named on policy VG-2026-905?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_test_36",
+    "question": "What bank account did I use for claim payment VG-2026-906?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "test",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_dev_11",
+    "question": "What is the next payment date on private policy VG-2026-907?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "dev",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  },
+  {
+    "question_id": "ins_dev_12",
+    "question": "What is the home address listed in private account VG-2026-908?",
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [
+      "The supplied documents do not contain that private policy information."
+    ],
+    "difficulty": "hard",
+    "query_type": "unavailable_answer",
+    "split": "dev",
+    "evidence": [],
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "provenance": {
+      "adaptation": "authored missing-private-information question"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "status": "All E1-E6 and three-weight retrieval comparisons completed at 128 tokens. The 220-token run was interrupted after 16 BM25 answers. Chunk-size comparison uses those same 16 questions at both sizes.",
+  "selected_alpha": {
+    "128": {
+      "E3": 0.5,
+      "E5": 0.5
+    }
+  },
+  "chunk_counts": {
+    "128": 616,
+    "220": 330
+  },
+  "shared_run_peak_rss_mb": 1857.25,
+  "device": "cpu",
+  "threads": 4,
+  "python": "3.12",
+  "platform": "Linux",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generator": "google/flan-t5-base",
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "memory_note": "Shared process high-water RSS from Linux /proc status, including all loaded models and caches. Earlier namespace-incorrect psutil samples were removed.",
+  "latency_note": "Warm models; cached query/HyDE preparation measured once and charged back per request. Excludes downloads, model loading and index building. No timing saved for incomplete 220-token configuration."
+}

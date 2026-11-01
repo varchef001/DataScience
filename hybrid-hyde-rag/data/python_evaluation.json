@@ -1,0 +1,1203 @@
+[
+  {
+    "question_id": "test_01",
+    "question": "Which directory holds cached Python .pyc files?",
+    "relevant_chunk_ids": {
+      "128": [
+        "modules_128_1768"
+      ],
+      "220": [
+        "modules_220_1764"
+      ]
+    },
+    "expected_answer": "__pycache__",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "modules",
+        "quote": "Python caches the compiled version of each module in the __pycache__ directory",
+        "start": 7320,
+        "end": 7398
+      }
+    ]
+  },
+  {
+    "question_id": "test_02",
+    "question": "Which exception signals the end of an iterator?",
+    "relevant_chunk_ids": {
+      "128": [
+        "classes_128_6760"
+      ],
+      "220": [
+        "classes_220_6664"
+      ]
+    },
+    "expected_answer": "StopIteration",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "classes",
+        "quote": "__next__() raises a StopIteration exception",
+        "start": 29700,
+        "end": 29743
+      }
+    ]
+  },
+  {
+    "question_id": "test_03",
+    "question": "What does itertools.product compute?",
+    "relevant_chunk_ids": {
+      "128": [
+        "itertools_128_936"
+      ],
+      "220": [
+        "itertools_220_980"
+      ]
+    },
+    "expected_answer": "The Cartesian product, equivalent to nested for loops.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "itertools",
+        "quote": "cartesian product, equivalent to a nested for-loop",
+        "start": 2530,
+        "end": 2580
+      }
+    ]
+  },
+  {
+    "question_id": "test_04",
+    "question": "What is the purpose of collections.ChainMap?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "It creates a single view of multiple mappings.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "ChainMap dict-like class for creating a single view of multiple mappings",
+        "start": 379,
+        "end": 451
+      }
+    ]
+  },
+  {
+    "question_id": "test_05",
+    "question": "When is a default function argument evaluated?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_4888"
+      ],
+      "220": [
+        "controlflow_220_4900"
+      ]
+    },
+    "expected_answer": "Once, at function definition in the defining scope.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "The default values are evaluated at the point of function definition in the defining scope",
+        "start": 18642,
+        "end": 18732
+      }
+    ]
+  },
+  {
+    "question_id": "test_06",
+    "question": "What does enumerate() provide while looping through a sequence?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_5304"
+      ],
+      "220": [
+        "datastructures_220_5292"
+      ]
+    },
+    "expected_answer": "The position index and corresponding value.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "the position index and corresponding value can be retrieved at the same time using the enumerate() function",
+        "start": 17484,
+        "end": 17591
+      }
+    ]
+  },
+  {
+    "question_id": "test_07",
+    "question": "How can I make sure an opened file gets closed even when something goes wrong?",
+    "relevant_chunk_ids": {
+      "128": [
+        "inputoutput_128_3224",
+        "inputoutput_128_3328"
+      ],
+      "220": [
+        "inputoutput_220_3136",
+        "inputoutput_220_3332"
+      ]
+    },
+    "expected_answer": "Use a with statement; it closes the file even if an exception occurs.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "inputoutput",
+        "quote": "the file is properly closed after its suite finishes, even if an exception is raised",
+        "start": 11699,
+        "end": 11783
+      }
+    ]
+  },
+  {
+    "question_id": "test_08",
+    "question": "How can I make a collection with no elements that will later hold only distinct values?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_3848"
+      ],
+      "220": [
+        "datastructures_220_3724",
+        "datastructures_220_3920"
+      ]
+    },
+    "expected_answer": "Use set() to create an empty set, not {}.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "to create an empty set you have to use set() , not {}",
+        "start": 12989,
+        "end": 13042
+      }
+    ]
+  },
+  {
+    "question_id": "test_09",
+    "question": "Which container is suitable when I frequently add or remove items at either end?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "collections.deque supports fast appends and pops on either end.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "deque list-like container with fast appends and pops on either end",
+        "start": 312,
+        "end": 378
+      }
+    ]
+  },
+  {
+    "question_id": "test_10",
+    "question": "How can I define a small unnamed function in one expression?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_8008",
+        "controlflow_128_8112"
+      ],
+      "220": [
+        "controlflow_220_8036"
+      ]
+    },
+    "expected_answer": "Use a lambda expression.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "Small anonymous functions can be created with the lambda keyword",
+        "start": 30088,
+        "end": 30152
+      }
+    ]
+  },
+  {
+    "question_id": "test_11",
+    "question": "How do I access a dictionary entry name and its stored value together in a loop?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_5200"
+      ],
+      "220": [
+        "datastructures_220_5096"
+      ]
+    },
+    "expected_answer": "Use the dictionary items() method.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "the key and corresponding value can be retrieved at the same time using the items() method",
+        "start": 17198,
+        "end": 17288
+      }
+    ]
+  },
+  {
+    "question_id": "test_12",
+    "question": "How can I refresh an already imported module during an interactive session?",
+    "relevant_chunk_ids": {
+      "128": [
+        "modules_128_1144"
+      ],
+      "220": [
+        "modules_220_1176"
+      ]
+    },
+    "expected_answer": "Use importlib.reload(modulename).",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "modules",
+        "quote": "use importlib.reload()",
+        "start": 5020,
+        "end": 5042
+      }
+    ]
+  },
+  {
+    "question_id": "test_13",
+    "question": "What should I use for a stack and for a queue, and why is a list less suitable for the queue?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0",
+        "datastructures_128_1040",
+        "datastructures_128_1144",
+        "datastructures_128_832"
+      ],
+      "220": [
+        "collections_220_0",
+        "datastructures_220_784",
+        "datastructures_220_980"
+      ]
+    },
+    "expected_answer": "Use a list for a stack and collections.deque for a queue. Removing from the front of a list requires shifting other elements.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "use a list as a stack",
+        "start": 3288,
+        "end": 3309
+      },
+      {
+        "document_id": "datastructures",
+        "quote": "doing inserts or pops from the beginning of a list is slow",
+        "start": 4018,
+        "end": 4076
+      },
+      {
+        "document_id": "collections",
+        "quote": "deque list-like container with fast appends and pops on either end",
+        "start": 312,
+        "end": 378
+      }
+    ]
+  },
+  {
+    "question_id": "test_14",
+    "question": "What is the difference between class-wide data and per-object data, and which method initializes a new object?",
+    "relevant_chunk_ids": {
+      "128": [
+        "classes_128_2704",
+        "classes_128_3536"
+      ],
+      "220": [
+        "classes_220_2548",
+        "classes_220_3528"
+      ]
+    },
+    "expected_answer": "Class variables are shared; instance variables are unique to each object. __init__ initializes the instance.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "classes",
+        "quote": "instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances",
+        "start": 16037,
+        "end": 16167
+      },
+      {
+        "document_id": "classes",
+        "quote": "class instantiation automatically invokes __init__()",
+        "start": 12563,
+        "end": 12615
+      }
+    ]
+  },
+  {
+    "question_id": "test_15",
+    "question": "How do I iterate through sequence positions and dictionary key-value pairs?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_5200",
+        "datastructures_128_5304"
+      ],
+      "220": [
+        "datastructures_220_5096",
+        "datastructures_220_5292"
+      ]
+    },
+    "expected_answer": "Use enumerate() for sequence positions and items() for dictionary key-value pairs.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "using the enumerate() function",
+        "start": 17561,
+        "end": 17591
+      },
+      {
+        "document_id": "datastructures",
+        "quote": "using the items() method",
+        "start": 17264,
+        "end": 17288
+      }
+    ]
+  },
+  {
+    "question_id": "test_16",
+    "question": "What methods let a class act as an iterator and what happens when there are no more elements?",
+    "relevant_chunk_ids": {
+      "128": [
+        "classes_128_6760",
+        "classes_128_6864"
+      ],
+      "220": [
+        "classes_220_6664",
+        "classes_220_6860"
+      ]
+    },
+    "expected_answer": "Define __iter__ and __next__; __next__ raises StopIteration when exhausted.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "classes",
+        "quote": "Define an __iter__() method which returns an object with a __next__() method",
+        "start": 30253,
+        "end": 30329
+      },
+      {
+        "document_id": "classes",
+        "quote": "__next__() raises a StopIteration exception",
+        "start": 29700,
+        "end": 29743
+      }
+    ]
+  },
+  {
+    "question_id": "test_17",
+    "question": "Which tools create named-field tuple subclasses and missing dictionary values automatically?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0",
+        "collections_128_104"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "namedtuple() creates tuple subclasses with named fields; defaultdict calls a factory for missing values.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "namedtuple() factory function for creating tuple subclasses with named fields",
+        "start": 234,
+        "end": 311
+      },
+      {
+        "document_id": "collections",
+        "quote": "defaultdict dict subclass that calls a factory function to supply missing values",
+        "start": 574,
+        "end": 654
+      }
+    ]
+  },
+  {
+    "question_id": "test_18",
+    "question": "How do I get Cartesian products and all orderings without repeating elements?",
+    "relevant_chunk_ids": {
+      "128": [
+        "itertools_128_1040",
+        "itertools_128_936"
+      ],
+      "220": [
+        "itertools_220_980"
+      ]
+    },
+    "expected_answer": "Use itertools.product for Cartesian products and itertools.permutations for orderings without repeated elements.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "itertools",
+        "quote": "cartesian product, equivalent to a nested for-loop",
+        "start": 2530,
+        "end": 2580
+      },
+      {
+        "document_id": "itertools",
+        "quote": "permutations() p[, r] r-length tuples, all possible orderings, no repeated elements",
+        "start": 2581,
+        "end": 2664
+      }
+    ]
+  },
+  {
+    "question_id": "test_19",
+    "question": "I need to read a text file one line at a time and want to know which method returns a single line rather than the entire file. Which method should I call?",
+    "relevant_chunk_ids": {
+      "128": [
+        "inputoutput_128_3744"
+      ],
+      "220": [
+        "inputoutput_220_3724"
+      ]
+    },
+    "expected_answer": "Call readline() on the file object.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "inputoutput",
+        "quote": "f.readline() reads a single line from the file",
+        "start": 13437,
+        "end": 13483
+      }
+    ]
+  },
+  {
+    "question_id": "test_20",
+    "question": "In my program I need to iterate over a sequence of evenly spaced integer values without writing every value explicitly. Which built-in function generates this arithmetic progression?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_520"
+      ],
+      "220": [
+        "controlflow_220_588"
+      ]
+    },
+    "expected_answer": "Use range().",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "the built-in function range() comes in handy. It generates arithmetic progressions",
+        "start": 2247,
+        "end": 2329
+      }
+    ]
+  },
+  {
+    "question_id": "test_21",
+    "question": "I have several nested loops, but after finding a match I only want to exit the loop that directly contains my current code. What does the break statement do in this situation?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_1040"
+      ],
+      "220": [
+        "controlflow_220_980"
+      ]
+    },
+    "expected_answer": "break exits the innermost enclosing for or while loop.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "The break statement breaks out of the innermost enclosing for or while loop",
+        "start": 4050,
+        "end": 4125
+      }
+    ]
+  },
+  {
+    "question_id": "test_22",
+    "question": "I need a placeholder inside a function while I am still writing it. Python requires a statement there, but I do not want that statement to perform any action. What can I use?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_1768"
+      ],
+      "220": [
+        "controlflow_220_1764"
+      ]
+    },
+    "expected_answer": "Use pass, which does nothing.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "The pass statement does nothing",
+        "start": 6612,
+        "end": 6643
+      }
+    ]
+  },
+  {
+    "question_id": "test_23",
+    "question": "I am building a lookup where each missing key should automatically receive a value produced by a factory function instead of my code manually initializing it. Which collections type supports this?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_104"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "Use collections.defaultdict.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "defaultdict dict subclass that calls a factory function to supply missing values",
+        "start": 574,
+        "end": 654
+      }
+    ]
+  },
+  {
+    "question_id": "test_24",
+    "question": "I am debugging some values and want a representation intended to be interpreted as Python syntax rather than merely a human-readable display. Which function should I choose instead of str?",
+    "relevant_chunk_ids": {
+      "128": [
+        "inputoutput_128_520"
+      ],
+      "220": [
+        "inputoutput_220_392"
+      ]
+    },
+    "expected_answer": "Use repr().",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "inputoutput",
+        "quote": "repr() is meant to generate representations which can be read by the interpreter",
+        "start": 2351,
+        "end": 2431
+      }
+    ]
+  },
+  {
+    "question_id": "test_25",
+    "question": "What does pop do?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_936"
+      ],
+      "220": [
+        "datastructures_220_784"
+      ]
+    },
+    "expected_answer": "For a list, pop removes and returns the item at an index; without an index it removes the last item.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "To retrieve an item from the top of the stack, use pop() without an explicit index",
+        "start": 3450,
+        "end": 3532
+      }
+    ]
+  },
+  {
+    "question_id": "test_26",
+    "question": "How do I count things?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0",
+        "collections_128_104"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "Counter counts hashable objects.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "Counter dict subclass for counting hashable objects",
+        "start": 452,
+        "end": 503
+      }
+    ]
+  },
+  {
+    "question_id": "test_27",
+    "question": "Where does Python look for it?",
+    "relevant_chunk_ids": {
+      "128": [
+        "modules_128_1456",
+        "modules_128_1560"
+      ],
+      "220": [
+        "modules_220_1372"
+      ]
+    },
+    "expected_answer": "For an imported module, Python searches the directories in sys.path.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "modules",
+        "quote": "a list of directories given by the variable sys.path",
+        "start": 6145,
+        "end": 6197
+      }
+    ]
+  },
+  {
+    "question_id": "test_28",
+    "question": "What is the default doing?",
+    "relevant_chunk_ids": {
+      "128": [
+        "controlflow_128_4888"
+      ],
+      "220": [
+        "controlflow_220_4900"
+      ]
+    },
+    "expected_answer": "Default function arguments are evaluated once when the function is defined.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "controlflow",
+        "quote": "The default value is evaluated only once",
+        "start": 18826,
+        "end": 18866
+      }
+    ]
+  },
+  {
+    "question_id": "test_29",
+    "question": "When does the else part run?",
+    "relevant_chunk_ids": {
+      "128": [
+        "errors_128_1768"
+      ],
+      "220": [
+        "errors_220_1764"
+      ]
+    },
+    "expected_answer": "For try-except, else runs when the try clause does not raise an exception.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "errors",
+        "quote": "It is useful for code that must be executed if the try clause does not raise an exception",
+        "start": 7312,
+        "end": 7401
+      }
+    ]
+  },
+  {
+    "question_id": "test_30",
+    "question": "Can I change it after creation?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_3224",
+        "datastructures_128_3328"
+      ],
+      "220": [
+        "datastructures_220_3136",
+        "datastructures_220_3332"
+      ]
+    },
+    "expected_answer": "A tuple is immutable, although it can contain mutable objects.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "test",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "Tuples are immutable",
+        "start": 10446,
+        "end": 10466
+      },
+      {
+        "document_id": "datastructures",
+        "quote": "but they can contain mutable objects",
+        "start": 10627,
+        "end": 10663
+      }
+    ]
+  },
+  {
+    "question_id": "test_31",
+    "question": "What is the password for the Python documentation administrator account?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "test_32",
+    "question": "What is the current tuition fee for the Texas State University computer science masters program?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "test_33",
+    "question": "What was the exact revenue of Green Valley Library in 2025?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "test_34",
+    "question": "Which private API key should I use for the fictional AcmeCloud service?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "test_35",
+    "question": "What is the weather in San Marcos right now?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "test_36",
+    "question": "What is the exact GPU serial number of the computer running this assignment?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "test",
+    "evidence": []
+  },
+  {
+    "question_id": "dev_01",
+    "question": "What base class is common to all Python exceptions?",
+    "relevant_chunk_ids": {
+      "128": [
+        "errors_128_1456"
+      ],
+      "220": [
+        "errors_220_1372"
+      ]
+    },
+    "expected_answer": "BaseException",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "errors",
+        "quote": "BaseException is the common base class of all exceptions",
+        "start": 6085,
+        "end": 6141
+      }
+    ]
+  },
+  {
+    "question_id": "dev_02",
+    "question": "Which variable contains a module name?",
+    "relevant_chunk_ids": {
+      "128": [
+        "modules_128_208"
+      ],
+      "220": [
+        "modules_220_196"
+      ]
+    },
+    "expected_answer": "__name__",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "exact_keyword",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "modules",
+        "quote": "available as the value of the global variable __name__",
+        "start": 1142,
+        "end": 1196
+      }
+    ]
+  },
+  {
+    "question_id": "dev_03",
+    "question": "How can I keep records with readable field names but tuple behavior?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "Use namedtuple().",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "namedtuple() factory function for creating tuple subclasses with named fields",
+        "start": 234,
+        "end": 311
+      }
+    ]
+  },
+  {
+    "question_id": "dev_04",
+    "question": "How do I reposition the cursor in a file?",
+    "relevant_chunk_ids": {
+      "128": [
+        "inputoutput_128_4160"
+      ],
+      "220": [
+        "inputoutput_220_4116"
+      ]
+    },
+    "expected_answer": "Use the file seek(offset, whence) method.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "semantic_paraphrase",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "inputoutput",
+        "quote": "To change the file object\u2019s position, use f.seek(offset, whence)",
+        "start": 14903,
+        "end": 14967
+      }
+    ]
+  },
+  {
+    "question_id": "dev_05",
+    "question": "Which functions pair sequences and provide indexes while iterating?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_5304"
+      ],
+      "220": [
+        "datastructures_220_5292"
+      ]
+    },
+    "expected_answer": "zip() pairs sequences and enumerate() gives positions.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "the entries can be paired with the zip() function",
+        "start": 17744,
+        "end": 17793
+      },
+      {
+        "document_id": "datastructures",
+        "quote": "using the enumerate() function",
+        "start": 17561,
+        "end": 17591
+      }
+    ]
+  },
+  {
+    "question_id": "dev_06",
+    "question": "Which container counts hashable objects and which combines mappings?",
+    "relevant_chunk_ids": {
+      "128": [
+        "collections_128_0",
+        "collections_128_104"
+      ],
+      "220": [
+        "collections_220_0"
+      ]
+    },
+    "expected_answer": "Counter counts objects and ChainMap combines mappings.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "multi_hop",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "collections",
+        "quote": "Counter dict subclass for counting hashable objects",
+        "start": 452,
+        "end": 503
+      },
+      {
+        "document_id": "collections",
+        "quote": "ChainMap dict-like class for creating a single view of multiple mappings",
+        "start": 379,
+        "end": 451
+      }
+    ]
+  },
+  {
+    "question_id": "dev_07",
+    "question": "I want to make a new list by applying an operation to each element of another sequence without writing a long loop. What Python feature provides a concise way to create such lists?",
+    "relevant_chunk_ids": {
+      "128": [
+        "datastructures_128_1248"
+      ],
+      "220": [
+        "datastructures_220_1176"
+      ]
+    },
+    "expected_answer": "Use list comprehensions.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "datastructures",
+        "quote": "List comprehensions provide a concise way to create lists",
+        "start": 4684,
+        "end": 4741
+      }
+    ]
+  },
+  {
+    "question_id": "dev_08",
+    "question": "I am using a class with names that should not accidentally clash with names in subclasses. What mechanism changes a double-underscore identifier to include its class name?",
+    "relevant_chunk_ids": {
+      "128": [
+        "classes_128_5824"
+      ],
+      "220": [
+        "classes_220_5684",
+        "classes_220_5880"
+      ]
+    },
+    "expected_answer": "Name mangling.",
+    "acceptable_answers": [],
+    "difficulty": "medium",
+    "query_type": "long_natural_language",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "classes",
+        "quote": "called name mangling",
+        "start": 26156,
+        "end": 26176
+      },
+      {
+        "document_id": "classes",
+        "quote": "textually replaced with _classname__spam",
+        "start": 26284,
+        "end": 26324
+      }
+    ]
+  },
+  {
+    "question_id": "dev_09",
+    "question": "How do I get all the combinations?",
+    "relevant_chunk_ids": {
+      "128": [
+        "itertools_128_1040"
+      ],
+      "220": [
+        "itertools_220_980"
+      ]
+    },
+    "expected_answer": "Use itertools.combinations for tuples without repeated elements.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "itertools",
+        "quote": "combinations() p, r r-length tuples, in sorted order, no repeated elements",
+        "start": 2665,
+        "end": 2739
+      }
+    ]
+  },
+  {
+    "question_id": "dev_10",
+    "question": "How can I repeat it?",
+    "relevant_chunk_ids": {
+      "128": [
+        "itertools_128_208"
+      ],
+      "220": [
+        "itertools_220_196"
+      ]
+    },
+    "expected_answer": "itertools.repeat repeats an element.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "ambiguous",
+    "split": "dev",
+    "evidence": [
+      {
+        "document_id": "itertools",
+        "quote": "repeat() elem [,n]",
+        "start": 896,
+        "end": 914
+      }
+    ]
+  },
+  {
+    "question_id": "dev_11",
+    "question": "What is the price of an AcmeCloud enterprise subscription?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "dev",
+    "evidence": []
+  },
+  {
+    "question_id": "dev_12",
+    "question": "What is the home address of this assignment author?",
+    "relevant_chunk_ids": {
+      "128": [],
+      "220": []
+    },
+    "expected_answer": "Insufficient evidence.",
+    "acceptable_answers": [],
+    "difficulty": "hard",
+    "query_type": "unanswerable",
+    "split": "dev",
+    "evidence": []
+  }
+]

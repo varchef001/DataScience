@@ -1,0 +1,2531 @@
+{
+  "query": "Is workers compensation the same as disability insurance?",
+  "hypothetical_document": "Workers compensation is a form of disability insurance.",
+  "bm25": [
+    {
+      "chunk_id": "insuranceqa_6935_128_0",
+      "document_id": "insuranceqa_6935",
+      "title": "InsuranceQA answer 6935",
+      "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6935",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "7565a69fe7f30dc0bc52c327bdf45a6cbef78fcb0c323a83140c410ef21ab601",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 554,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 29.446681635799305
+    },
+    {
+      "chunk_id": "insuranceqa_4085_128_520",
+      "document_id": "insuranceqa_4085",
+      "title": "InsuranceQA answer 4085",
+      "text": "the entire structure after a major loss. Cleaning up the concepts here also makes it necessary to make sure that the contractor has general liability and workers compensation insurance. If they have vehicles that operate on the property you should also insist that they provide evidence of vehicle insurance. In every instance above, you should be listed as an \"additional insured\" and \"certificate holder\" during the performance of the construction tasks. If possible, ask them to waive subrogation. Get evidence in writing. A commonly used form is the \"Acord 25\" Certification of Liability Insurance form and this is commonly provided ask for and get written evidence of coverage as",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "4085",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "21ad7b7facd2e92c15b14f97e705663f931657bba99db4cc0a0a29ff90a1fa60",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 2716,
+        "char_end": 3400,
+        "token_start": 520,
+        "token_end": 648
+      },
+      "score": 16.025188415699713
+    },
+    {
+      "chunk_id": "insuranceqa_17120_128_0",
+      "document_id": "insuranceqa_17120",
+      "title": "InsuranceQA answer 17120",
+      "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17120",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5ab2850c6e47647067be7704dc4acf9c236affa5131af91df3d6b2a4ff7de69",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 504,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 12.029923531109308
+    },
+    {
+      "chunk_id": "insuranceqa_13071_128_0",
+      "document_id": "insuranceqa_13071",
+      "title": "InsuranceQA answer 13071",
+      "text": "Life insurance face value is the death benefit paid by the life insurance policy. In Term life insurance, the face value is the amount of life insurance that was taken out. In Permanent life insurance that has cash value, the face value is, again, the amount of coverage purchased. Face value is not the same as cash value.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13071",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "1bb6e36e9eafa1201a10a1a5d1e43f257bc4facbcabeb97ca097c47dd9f9e09b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 323,
+        "token_start": 0,
+        "token_end": 66
+      },
+      "score": 11.836155607407
+    },
+    {
+      "chunk_id": "insuranceqa_395_128_0",
+      "document_id": "insuranceqa_395",
+      "title": "InsuranceQA answer 395",
+      "text": "A simplified employee pension program is based on an IRA. However, since it is sponsored by the employer the limit for contributions is much higher (25% of compensation up to $52,000.) Each participant has a separate account. There is a minimum contribution for each SEP participant of $550. For additional information contact a life insurance agent that specializes in retirement programs.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "395",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c64b58d68a0da99ac743932cc2d1ebe06042b7dc28be88645d58fb5451544e48",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 390,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 11.794044182249234
+    },
+    {
+      "chunk_id": "insuranceqa_14753_128_0",
+      "document_id": "insuranceqa_14753",
+      "title": "InsuranceQA answer 14753",
+      "text": "How to shop for long term disability care insurance? First start with a group of companies to compare from. Then READ the plans. The most important anything in a disability policy is the definition of what is disability. It doesn't matter how long or how much if you never met the definition of disability stated inside the policy. The cheapest premiums with the highest payouts mean nothing if you never meet the policy's definition.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "14753",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "e24a3fc3eb68b00425c23ed6b48867f8758f4699ebe28595238baa2455b910f5",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 434,
+        "token_start": 0,
+        "token_end": 87
+      },
+      "score": 11.686417414398916
+    },
+    {
+      "chunk_id": "insuranceqa_24913_128_0",
+      "document_id": "insuranceqa_24913",
+      "title": "InsuranceQA answer 24913",
+      "text": "State Farm lists three types of Disability Insurance on their website: Disability Income Insurance, Mortgage Disability Income Insurance, and Individual Credit Disability Income Insurance. The Disability Income Insurance provides payments to the insured during a period of disability so that they can pay for an incurred expenses. State Farm also sells Group Long Term Disability Insurance.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24913",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "89c04155ff428802061236c047d3d42d29ce42a6a31ce5d04f91898ff8234822",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 390,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 11.448768556220418
+    },
+    {
+      "chunk_id": "insuranceqa_24167_128_0",
+      "document_id": "insuranceqa_24167",
+      "title": "InsuranceQA answer 24167",
+      "text": "15 year Term Life Insurance is life insurance that will provide coverage for 15 years. The price is assumed to stay the same during that 15 years, but that is not always guaranteed, so a good question to ask before purchasing the policy. When the 15 years end, you either have to apply for a new policy or pay a new and higher price for the same policy.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24167",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6d1588ea0abccd5e99ba8d7583dbd41f966f2e52c3ca253efc190ab826a3c700",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 353,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 10.953196444698095
+    },
+    {
+      "chunk_id": "insuranceqa_13475_128_0",
+      "document_id": "insuranceqa_13475",
+      "title": "InsuranceQA answer 13475",
+      "text": "Buy-Sell Disability Insurance is commonly purchased by business owners to prepare for the financial burden of a partners disability. The policy provides cash for another owner to purchase the disabled partners share of the business. This policy does not replace income, but it does protect the business. The disabled owner is able to sell his portion of the business and the business remains intact and fiscally stable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13475",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0d5f1db7c832bc0f55463b85ddd81fdfae542822efe668bdcf18a150377c9a00",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 419,
+        "token_start": 0,
+        "token_end": 75
+      },
+      "score": 10.80690986076943
+    },
+    {
+      "chunk_id": "insuranceqa_12415_128_0",
+      "document_id": "insuranceqa_12415",
+      "title": "InsuranceQA answer 12415",
+      "text": "Damage to a pool is covered as long as it is not an excluded loss such as \"wear and tear\", \"ground movement\" or a maintenance issue. Most home insurance policies cover all losses except what is excluded in the policy and a pool would be covered the same as your house.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "12415",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "38476a477a07e703947d1360a1ccd1821529991aa7912dd8bf66a7e972d1c587",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 268,
+        "token_start": 0,
+        "token_end": 58
+      },
+      "score": 10.605270284478095
+    },
+    {
+      "chunk_id": "insuranceqa_6016_128_0",
+      "document_id": "insuranceqa_6016",
+      "title": "InsuranceQA answer 6016",
+      "text": "Disability insurance is part of defensive planning. You need to establish your elimination or waiting period and the length of coverage. Most working Americans have around 90 days of cash reserves, so 90 days would be a consideration for a waiting period. If you can afford long term care to age 65, you should secure the coverage. But if it's unaffordable, at least consider short term disability.The are several online brokerage companies that specialize in disability insurance and offer the most competitive carriers in the market.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6016",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "9fc6a880719416cdc2431d7d535eb2a7e4af9e5ddd6238361b5bf5bf4770617b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 535,
+        "token_start": 0,
+        "token_end": 103
+      },
+      "score": 10.550302091795979
+    },
+    {
+      "chunk_id": "insuranceqa_19507_128_0",
+      "document_id": "insuranceqa_19507",
+      "title": "InsuranceQA answer 19507",
+      "text": "One good place to start is your state department of insurance. Many states have now established policy locater services. Another resource is the carrier from which the insured bought other policies. People frequently buy life insurance from the same company that provided their home and auto coverages. And, as mentioned by my colleagues, you have the Medical Information Bureau ( WEBSITELINK as well as private locater services.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "19507",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8587dd4d3af9169eff4598022858c61b6e68ec13347fb60d5d3adfe320a87ab8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 429,
+        "token_start": 0,
+        "token_end": 79
+      },
+      "score": 10.513043657957315
+    },
+    {
+      "chunk_id": "insuranceqa_14933_128_0",
+      "document_id": "insuranceqa_14933",
+      "title": "InsuranceQA answer 14933",
+      "text": "Critical Illness Insurance is not the same as PPI, or Payment Protection Insurance. Critical Illness Insurance pays a cash benefit to the person insured by the policy, when the insured person is diagnosed with a serious disease listed in the policy. The cash benefit can be used as the insured person wishes. PPI payments are triggered when the insured person is unable to work due to job loss. The inability to work may be due to illness or other reasons. The payments go to repay a lender who is carrying a mortgage or large loan for the insured person.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "14933",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "81398bc2f3dec3d57b37f16e5be45fb4d141cb0c02388592ed422191ee067aab",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 115
+      },
+      "score": 10.46930774978965
+    },
+    {
+      "chunk_id": "insuranceqa_21501_128_0",
+      "document_id": "insuranceqa_21501",
+      "title": "InsuranceQA answer 21501",
+      "text": "The answer to who has the cheapest Disability Insurance in Wisconsin will vary from person to person. That is because some companies cater to certain professions, others have the best price for persons of a certain age, etc. And the price will vary depending on the bells and whistles you choose, the elimination period you select, and other features. Using a broker that sells Disability Insurance from multiple companies can help you find the cheapest rate for the best coverage.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "21501",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8e8cad1d257d3be454189fef4a00cb48e23c5932190bbb14827cebf59d018ef4",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 481,
+        "token_start": 0,
+        "token_end": 91
+      },
+      "score": 10.339101482461166
+    },
+    {
+      "chunk_id": "insuranceqa_6574_128_0",
+      "document_id": "insuranceqa_6574",
+      "title": "InsuranceQA answer 6574",
+      "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6574",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f9912bfb47464e4de183b2f8fa95feff59d6f17e2d1fe7dfb7366010f2f0d444",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 599,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 10.300965034023008
+    },
+    {
+      "chunk_id": "insuranceqa_6151_128_0",
+      "document_id": "insuranceqa_6151",
+      "title": "InsuranceQA answer 6151",
+      "text": "I personally never recommend long term care insurance until a person is at least mid 50s to early 60s. I believe long term disability insurance is more important in your 40s if you are still earning income. There are many other insurance products to consider in your financial plan and long term care insurance is near the bottom of the list in your 40s.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6151",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "1ad5cb13b591e48e35741a7c8f0457fb78175fd003e9fe89fb490bacc64a3f49",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 354,
+        "token_start": 0,
+        "token_end": 70
+      },
+      "score": 10.167875421791837
+    },
+    {
+      "chunk_id": "insuranceqa_8079_128_0",
+      "document_id": "insuranceqa_8079",
+      "title": "InsuranceQA answer 8079",
+      "text": "Is Life Insurance is not a Pyramid Scheme. Life insurance is not a Ponzi scheme. Life insurance is not a multi-level marketing pyramid, although it can be sold like one via marketing multi-level distribution channel. Its built on the actuarial premise of the law of large numbers. The statistical odds of everyone covered with life insurance dying at the same time are too great to calculate. Bottom line it is one of the great societal financial products of the last 300 years.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "8079",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0148eaac1272917ac106173455cee22bfbe7b8f53c4d311c0a58ec044d75c5d8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 478,
+        "token_start": 0,
+        "token_end": 97
+      },
+      "score": 10.148227123076953
+    },
+    {
+      "chunk_id": "insuranceqa_26054_128_0",
+      "document_id": "insuranceqa_26054",
+      "title": "InsuranceQA answer 26054",
+      "text": "The business can pay for short or long term disability insurance in a employer sponsored group plan. But some corporations don't carry long term disability in their group plans, so they offer long term disability to their key executives as an extra retention benefit. They may be able to deduct the premiums, however if they do the benefits may be taxable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26054",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6fb741320d6f9d928e0dce2e3dea8e8d4b44c07144a8822f6556b82f5ae0ddae",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 356,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 9.914966158021311
+    },
+    {
+      "chunk_id": "insuranceqa_803_128_0",
+      "document_id": "insuranceqa_803",
+      "title": "InsuranceQA answer 803",
+      "text": "Stillwater Insurance Company has the Best Renters Insurance Rates in most States and most geographic areas. PersonalProperty coverage is available up to $300,000, the minimum available limit of personal property is $10,000 for all states, with exception to CA and NM where it is $15,000 and FL where the minimum limit is $25,000. Live in partners, such as a boy-friend/girl-friend, areaccepted on the same policy and both partners may be listed as Named or AdditionalNamed Insured. Two immediate family memberts (adult siblings or parent/adult child) are accepted",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "803",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "741d6caca85f6706a221fa921cf831bc19e4d9421f9de36af68168944d0245c0",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 563,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 9.723875931939798
+    },
+    {
+      "chunk_id": "insuranceqa_7421_128_0",
+      "document_id": "insuranceqa_7421",
+      "title": "InsuranceQA answer 7421",
+      "text": "Life Insurance is one of the best ways to deal with unexpected losses and events. It can be used to control a large amount of cash (face value) for a relatively small premium creating control of an asset with little cash and great leverage. People need life insurance to cover events such as death and disability. The use of insurance has helped many people survive very hard times.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "7421",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "de3c76cf0ec2eca64e18c440c76fbc47728371d9775e62a276ae13953b40f3d7",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 382,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 9.60599823108008
+    },
+    {
+      "chunk_id": "insuranceqa_3816_128_0",
+      "document_id": "insuranceqa_3816",
+      "title": "InsuranceQA answer 3816",
+      "text": "You can purchase Short Term Disability Insurance; however, the number of companies that sell it are extremely limited, compared to the number that sell Long Term Disability Insurance. Also, the premiums are steep. But if you want to use it for the purpose of a known need like pregnancy, it can be worth it.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3816",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0889a8afe826e05ca9424f365e291176fd3e15511cf57e459f0bf0238b71751c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 307,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 9.565168900340126
+    },
+    {
+      "chunk_id": "insuranceqa_23977_128_0",
+      "document_id": "insuranceqa_23977",
+      "title": "InsuranceQA answer 23977",
+      "text": "No, Primerica does not list Disability Insurance in the list of products that they sell. To find Disability Insurance you can go to a website or agency that sells many different life insurance products from different companies. Among those, you will find several that carry Disability Insurance and be able to shop among them for your best price.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23977",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "72906925af36553b55c9d0bf70da019cfc646718342fb64c075d148cb9975a9c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 346,
+        "token_start": 0,
+        "token_end": 64
+      },
+      "score": 9.542389812806556
+    },
+    {
+      "chunk_id": "insuranceqa_26351_128_0",
+      "document_id": "insuranceqa_26351",
+      "title": "InsuranceQA answer 26351",
+      "text": "The #1 thing you need to know about disability insurance is that it is paycheck protection in times of prolonged sickness and injury. You need to select an elimination period. Most Americans have 90 days in cash reserves, so a 90 day elimination period is a consideration. When claims are filled and the elimination period satisfied, the benefits are paid tax free.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26351",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "4e9de0c8b92674b3be1bd78aa1003de59d50f835646a10dc5da00678fc31cfce",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 365,
+        "token_start": 0,
+        "token_end": 71
+      },
+      "score": 9.508856186442825
+    },
+    {
+      "chunk_id": "insuranceqa_23013_128_0",
+      "document_id": "insuranceqa_23013",
+      "title": "InsuranceQA answer 23013",
+      "text": "Reduced Paid Up policies result from exercising one of the standard nonforfeiture options in cash value policies. When a policy owner wants to stop paying required premiums, it is one of the alternatives to surrendering the coverage for its cash value. In this case, the death benefit is reduced from the amount of the original policy to a level that can be purchased by the available cash value. The paid-up policy is the same type of insurance as the basic policy from which the cash value is being used. Cash values will grow in the paid-up policy.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23013",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "fbad19058b617ec7ad0ae0aeb3fbafcf1fced7e0888b1486d908d61a1645a592",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 551,
+        "token_start": 0,
+        "token_end": 113
+      },
+      "score": 9.35391763558739
+    },
+    {
+      "chunk_id": "insuranceqa_11607_128_0",
+      "document_id": "insuranceqa_11607",
+      "title": "InsuranceQA answer 11607",
+      "text": "When you apply to buy insurance, most insurance companies will take your credit into consideration. It is considered a \"soft hit\". It will show up on your credit history that there was an inquiry, it doesn't change or effect your credit. So whatever your credit score was before you apply for insurance is what it will be after applying. To my knowledge, California is one of the states that mandates insurance companies not take a person's credit history into consideration when rating the premium. You can check with an insurance agent or broker licensed in your state to see if your state as the same rules.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "11607",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5f9d70c4a0923f53f6080918f17ab2b21d0ba1b4dfc203e51a4ebb729bad51f",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 610,
+        "token_start": 0,
+        "token_end": 121
+      },
+      "score": 9.295444869538098
+    },
+    {
+      "chunk_id": "insuranceqa_26203_128_0",
+      "document_id": "insuranceqa_26203",
+      "title": "InsuranceQA answer 26203",
+      "text": "Many companies do offer disability insurance. However in order to find what's best for you by fitting you with the best product choice you should be prepared to submit some information to analyze your need. One my specialties is in this field and all over the nation. The lower the rate and the more the coverage is the best way. Alway look for one that specializes in this coverage for better results.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26203",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "95c7dc3e9be086eb0f261898d3ed4b4602d5a89be7ae4c6e4bf8774f5e55105e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 402,
+        "token_start": 0,
+        "token_end": 81
+      },
+      "score": 9.219772063642855
+    },
+    {
+      "chunk_id": "insuranceqa_23440_128_0",
+      "document_id": "insuranceqa_23440",
+      "title": "InsuranceQA answer 23440",
+      "text": "If you are self employed and paying the cost of your health and disability insurance then it may be tax deductible. It is always good to consult your tax adviser for your individual situation however since each situation is different. For example, some people operate a side business and file a schedule C. Their insurance is paid through an employer. In this case, even though they file Schedule C, the premiums they pay may not be deductible.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23440",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6b33a46471ab541a609b3c5a5e292b67e0e77b1e3877b7a7d1f1033066106761",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 92
+      },
+      "score": 9.116324417410787
+    },
+    {
+      "chunk_id": "insuranceqa_3834_128_0",
+      "document_id": "insuranceqa_3834",
+      "title": "InsuranceQA answer 3834",
+      "text": "In Florida, the best Medicare Supplement (Medigap) Plan will depend on your individual needs. Across the United States, Medigap Plans are standardized (plans have same benefits regardless of insurance carrier). Not only can you use your plan benefits in Florida but anywhere in the U.S. as long as the provider accepts Medicare. Plan F is very popular because it covers all Medicare approved charges. But that does not mean it is the best plan for everyone. Plan F is the most expensive plan and Florida's rates are among the highest in the country, and even though you can use your Medigap Plan outside of the",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3834",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "76441056a82231cca4ce6256f96ccffca6f951c340afd1e7bf05bc9bf02cb6f8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 610,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 9.044352198347609
+    },
+    {
+      "chunk_id": "insuranceqa_17555_128_0",
+      "document_id": "insuranceqa_17555",
+      "title": "InsuranceQA answer 17555",
+      "text": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency. They are responsible for running several federal health care programs with Medicare and Medicaid being the 2 main programs. Medicare is a federal health insurance program that you are eligible for at age 65 or if you qualify from a disability. Medicaid is a federal and state run program. It provides health care services for certain individuals who qualify based on their income .",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17555",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "158494520f4ff9be1e0405234e8983c76788a525c296444aa40ab58929f8e955",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 499,
+        "token_start": 0,
+        "token_end": 98
+      },
+      "score": 8.97284473163018
+    },
+    {
+      "chunk_id": "insuranceqa_10012_128_0",
+      "document_id": "insuranceqa_10012",
+      "title": "InsuranceQA answer 10012",
+      "text": "The best Medicare supplemental insurance plan in your state is one that matches your needs and budget. Medigap insurance rates vary considerably by zip code, age, tobacco use and plan. The older you are the higher your Medicare supplement rate will be. The exception is for those who are under age 65 and on disability and Medicare. In most states rates for under age 65 are astronomical. Many carriers offer competitive rates from age 65 to 74. Above age 74 some plans (surprisingly) become more competitive while others less so. Tobacco use often adds 20% to the rate but can be more, depending on the carrier. Plan F is the most expensive",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "10012",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "eae0a33857ea0227cf1a78ab7a80ee1f85e215c38fc5dd082a6f09c896654e5f",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 641,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 8.803631090197344
+    }
+  ],
+  "dense_hyde": [
+    {
+      "chunk_id": "insuranceqa_6935_128_0",
+      "document_id": "insuranceqa_6935",
+      "title": "InsuranceQA answer 6935",
+      "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6935",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "7565a69fe7f30dc0bc52c327bdf45a6cbef78fcb0c323a83140c410ef21ab601",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 554,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 0.8296392560005188
+    },
+    {
+      "chunk_id": "insuranceqa_17120_128_0",
+      "document_id": "insuranceqa_17120",
+      "title": "InsuranceQA answer 17120",
+      "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17120",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5ab2850c6e47647067be7704dc4acf9c236affa5131af91df3d6b2a4ff7de69",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 504,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 0.6141983270645142
+    },
+    {
+      "chunk_id": "insuranceqa_6574_128_0",
+      "document_id": "insuranceqa_6574",
+      "title": "InsuranceQA answer 6574",
+      "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6574",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f9912bfb47464e4de183b2f8fa95feff59d6f17e2d1fe7dfb7366010f2f0d444",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 599,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.5621583461761475
+    },
+    {
+      "chunk_id": "insuranceqa_9111_128_0",
+      "document_id": "insuranceqa_9111",
+      "title": "InsuranceQA answer 9111",
+      "text": "They are two totally different policies. Critical Illness pays if you are diagnosed with a critical illness such as heart attack or stroke or other critical illness. A disability policy covers you if you are unable to perform your job due to an accident or illness. It will pay a percentage of your income for a specified period.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "9111",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "a685683adb66da808031fcc2fc21ac8eb84175d6685e4fe39684d35913aa0a8e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 329,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.5420246124267578
+    },
+    {
+      "chunk_id": "insuranceqa_15397_128_0",
+      "document_id": "insuranceqa_15397",
+      "title": "InsuranceQA answer 15397",
+      "text": "If you or your family would be put in an extremely difficult situation if you were to become unable to work for over a couple of months, you need Disability Insurance. While it will not replace all your income, Disability Insurance can keep a short term setback from becoming a tragedy from which you cannot recover financially.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "15397",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "91e3aa2a17265fc80bdc281f5b38300b1b3640ec6ec2e62d266b30169e3782d1",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 328,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.5390382409095764
+    },
+    {
+      "chunk_id": "insuranceqa_13633_128_0",
+      "document_id": "insuranceqa_13633",
+      "title": "InsuranceQA answer 13633",
+      "text": "Disability Insurance replaces up to 80% of your income at a time when you cannot work. For most people, receiving their income is a necessary factor to live a normal life without tremendous upheaval. Granted, becoming disabled itself can carry emotional, social and physical trauma. But to take away income complicates things at a time when further disruption is not needed. Social Security Disability Insurance does exist, but it takes longer to get, does not replaces as much income as an individual policy, and requires that you cannot work at any job.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13633",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "171bef28a48a790d64de3541376d3c2aa00f3dfec6138656e94c8f663f01f637",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 109
+      },
+      "score": 0.5245643854141235
+    },
+    {
+      "chunk_id": "insuranceqa_26054_128_0",
+      "document_id": "insuranceqa_26054",
+      "title": "InsuranceQA answer 26054",
+      "text": "The business can pay for short or long term disability insurance in a employer sponsored group plan. But some corporations don't carry long term disability in their group plans, so they offer long term disability to their key executives as an extra retention benefit. They may be able to deduct the premiums, however if they do the benefits may be taxable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26054",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6fb741320d6f9d928e0dce2e3dea8e8d4b44c07144a8822f6556b82f5ae0ddae",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 356,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 0.5059549808502197
+    },
+    {
+      "chunk_id": "insuranceqa_26351_128_0",
+      "document_id": "insuranceqa_26351",
+      "title": "InsuranceQA answer 26351",
+      "text": "The #1 thing you need to know about disability insurance is that it is paycheck protection in times of prolonged sickness and injury. You need to select an elimination period. Most Americans have 90 days in cash reserves, so a 90 day elimination period is a consideration. When claims are filled and the elimination period satisfied, the benefits are paid tax free.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26351",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "4e9de0c8b92674b3be1bd78aa1003de59d50f835646a10dc5da00678fc31cfce",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 365,
+        "token_start": 0,
+        "token_end": 71
+      },
+      "score": 0.49639010429382324
+    },
+    {
+      "chunk_id": "insuranceqa_22818_128_0",
+      "document_id": "insuranceqa_22818",
+      "title": "InsuranceQA answer 22818",
+      "text": "When buying Disability Insurance, you should be sure to get a policy that pays if you are unable to perform your own occupation. Otherwise, your policy will not pay the benefit unless you are unable to do work of any kind. If you are moving up in your career, purchase the option to add increased benefits without having to qualify again medically in the future. There will be concessions to be made, so look at what is most important to you and keep those features in your policy and cut others. E.g. If you only have 1 month of income in savings, you might want to choose a 1 month elimination period and cut corners",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "22818",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8b51c774e0b592a8d4fa1d318e756cb8f2e45ea3e2ae85a06de2607e301a8d02",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 618,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.4855141341686249
+    },
+    {
+      "chunk_id": "insuranceqa_16869_128_0",
+      "document_id": "insuranceqa_16869",
+      "title": "InsuranceQA answer 16869",
+      "text": "If you are paying for a personal individual disability policy you want to pay for it from your personal checking account. The reason is with today's tax laws it will not be tax deductible or a business expense unless you are paying for employees. The good news is since you pay premiums with after tax dollars, if you become disable, your benefits are drawn tax free to you.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "16869",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c148702909cb3fc9cffd3674c7ee6a5a04e344ddfecb8a81258312123d0a105a",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 374,
+        "token_start": 0,
+        "token_end": 80
+      },
+      "score": 0.47747427225112915
+    },
+    {
+      "chunk_id": "insuranceqa_13475_128_0",
+      "document_id": "insuranceqa_13475",
+      "title": "InsuranceQA answer 13475",
+      "text": "Buy-Sell Disability Insurance is commonly purchased by business owners to prepare for the financial burden of a partners disability. The policy provides cash for another owner to purchase the disabled partners share of the business. This policy does not replace income, but it does protect the business. The disabled owner is able to sell his portion of the business and the business remains intact and fiscally stable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13475",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0d5f1db7c832bc0f55463b85ddd81fdfae542822efe668bdcf18a150377c9a00",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 419,
+        "token_start": 0,
+        "token_end": 75
+      },
+      "score": 0.47428324818611145
+    },
+    {
+      "chunk_id": "insuranceqa_26203_128_0",
+      "document_id": "insuranceqa_26203",
+      "title": "InsuranceQA answer 26203",
+      "text": "Many companies do offer disability insurance. However in order to find what's best for you by fitting you with the best product choice you should be prepared to submit some information to analyze your need. One my specialties is in this field and all over the nation. The lower the rate and the more the coverage is the best way. Alway look for one that specializes in this coverage for better results.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26203",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "95c7dc3e9be086eb0f261898d3ed4b4602d5a89be7ae4c6e4bf8774f5e55105e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 402,
+        "token_start": 0,
+        "token_end": 81
+      },
+      "score": 0.46411964297294617
+    },
+    {
+      "chunk_id": "insuranceqa_24913_128_0",
+      "document_id": "insuranceqa_24913",
+      "title": "InsuranceQA answer 24913",
+      "text": "State Farm lists three types of Disability Insurance on their website: Disability Income Insurance, Mortgage Disability Income Insurance, and Individual Credit Disability Income Insurance. The Disability Income Insurance provides payments to the insured during a period of disability so that they can pay for an incurred expenses. State Farm also sells Group Long Term Disability Insurance.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24913",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "89c04155ff428802061236c047d3d42d29ce42a6a31ce5d04f91898ff8234822",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 390,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 0.4565672278404236
+    },
+    {
+      "chunk_id": "insuranceqa_6016_128_0",
+      "document_id": "insuranceqa_6016",
+      "title": "InsuranceQA answer 6016",
+      "text": "Disability insurance is part of defensive planning. You need to establish your elimination or waiting period and the length of coverage. Most working Americans have around 90 days of cash reserves, so 90 days would be a consideration for a waiting period. If you can afford long term care to age 65, you should secure the coverage. But if it's unaffordable, at least consider short term disability.The are several online brokerage companies that specialize in disability insurance and offer the most competitive carriers in the market.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6016",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "9fc6a880719416cdc2431d7d535eb2a7e4af9e5ddd6238361b5bf5bf4770617b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 535,
+        "token_start": 0,
+        "token_end": 103
+      },
+      "score": 0.4431125223636627
+    },
+    {
+      "chunk_id": "insuranceqa_23440_128_0",
+      "document_id": "insuranceqa_23440",
+      "title": "InsuranceQA answer 23440",
+      "text": "If you are self employed and paying the cost of your health and disability insurance then it may be tax deductible. It is always good to consult your tax adviser for your individual situation however since each situation is different. For example, some people operate a side business and file a schedule C. Their insurance is paid through an employer. In this case, even though they file Schedule C, the premiums they pay may not be deductible.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23440",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6b33a46471ab541a609b3c5a5e292b67e0e77b1e3877b7a7d1f1033066106761",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 92
+      },
+      "score": 0.4414233863353729
+    },
+    {
+      "chunk_id": "insuranceqa_24378_128_0",
+      "document_id": "insuranceqa_24378",
+      "title": "InsuranceQA answer 24378",
+      "text": "Yes. And, they can be from different carriers, although I recommend that for convenience sake that they be from the same carrier, if possible. If you go on claim, you might have double the paperwork with two, separate carriers. It often happens, for example, that one be covered by a group plan at work and yet still not have up to 2/3 of income insured against disability. The maximum monthly benefit allowable on the group plan and any other voluntary employee DI benefits one can buy might not stretch to reach that goal. (The total amount of income replacement from all coverage usually cannot exceed 2/3 of income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24378",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "39306a1beeb061f29a4a3ee6894524e941f605982bc2b3e9d644e41be0718dc5",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 619,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.43817034363746643
+    },
+    {
+      "chunk_id": "insuranceqa_9857_128_0",
+      "document_id": "insuranceqa_9857",
+      "title": "InsuranceQA answer 9857",
+      "text": "Well to be exact. Social Security benefits are paid for by taxable income and is federal. Tbis benefit is usually for retirement at Age 65. Other circumstances like permanent or serious injury that causes a person the inability to perform living activities or job functions will be administered earlier to.help with living expenses. There is no premium and you may consider paid when you received your paycheck.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "9857",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "68b643e37fb77ed7594eaa9b897dc960263773cd85f6c6d42cf5290d58059dba",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 411,
+        "token_start": 0,
+        "token_end": 78
+      },
+      "score": 0.41659224033355713
+    },
+    {
+      "chunk_id": "insuranceqa_22210_128_0",
+      "document_id": "insuranceqa_22210",
+      "title": "InsuranceQA answer 22210",
+      "text": "Your question does not have an easy or simple answer. When you receive treatment from a medical provider you accept financial responsibility for claims not paid by your health insurance carrier. The health insurance company is a guarantor of sorts (if you have a fully insured plan) but there may also be other carriers backing them up. With self funded health insurance your employer or union is the guarantor and they may have reinsurance in place to back them.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "22210",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "36db263727902c894a10d080d53113c7f579317b6dcb2a5940345ad615ff9ffe",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 463,
+        "token_start": 0,
+        "token_end": 91
+      },
+      "score": 0.3994990587234497
+    },
+    {
+      "chunk_id": "insuranceqa_14933_128_0",
+      "document_id": "insuranceqa_14933",
+      "title": "InsuranceQA answer 14933",
+      "text": "Critical Illness Insurance is not the same as PPI, or Payment Protection Insurance. Critical Illness Insurance pays a cash benefit to the person insured by the policy, when the insured person is diagnosed with a serious disease listed in the policy. The cash benefit can be used as the insured person wishes. PPI payments are triggered when the insured person is unable to work due to job loss. The inability to work may be due to illness or other reasons. The payments go to repay a lender who is carrying a mortgage or large loan for the insured person.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "14933",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "81398bc2f3dec3d57b37f16e5be45fb4d141cb0c02388592ed422191ee067aab",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 115
+      },
+      "score": 0.39803701639175415
+    },
+    {
+      "chunk_id": "insuranceqa_12454_128_0",
+      "document_id": "insuranceqa_12454",
+      "title": "InsuranceQA answer 12454",
+      "text": "Coverage for liability arising from personal injury or property damage is an integral part of most homeowners policies. This coverage is extremely important but often overlooked. The whole field of personal injury is a very active arena for litigation. What I routinely recommend is that the policyholder take the maximum amount of liability protection available and then consider an umbrella policy to further extend coverage.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "12454",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "dd895abcf26fcb6104ba7ff4b920eacbff5ad17369e98417e89a0f2b230811aa",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 427,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 0.39773085713386536
+    },
+    {
+      "chunk_id": "insuranceqa_3816_128_0",
+      "document_id": "insuranceqa_3816",
+      "title": "InsuranceQA answer 3816",
+      "text": "You can purchase Short Term Disability Insurance; however, the number of companies that sell it are extremely limited, compared to the number that sell Long Term Disability Insurance. Also, the premiums are steep. But if you want to use it for the purpose of a known need like pregnancy, it can be worth it.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3816",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0889a8afe826e05ca9424f365e291176fd3e15511cf57e459f0bf0238b71751c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 307,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 0.3906966745853424
+    },
+    {
+      "chunk_id": "insuranceqa_4044_128_0",
+      "document_id": "insuranceqa_4044",
+      "title": "InsuranceQA answer 4044",
+      "text": "Generally no, but there may be exceptions. Most long term disability plans have waiting periods of 90 days or longer before you may be eligible for benefits. You would need to meet the definition of total and permanent disability in most cases, although some plans may have partial disability benefits.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "4044",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f3d056612a42310089e3a4d482ae38f0e2c2e88a578310f10415d7dc5f7b3ab2",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 302,
+        "token_start": 0,
+        "token_end": 55
+      },
+      "score": 0.37540191411972046
+    },
+    {
+      "chunk_id": "insuranceqa_23977_128_0",
+      "document_id": "insuranceqa_23977",
+      "title": "InsuranceQA answer 23977",
+      "text": "No, Primerica does not list Disability Insurance in the list of products that they sell. To find Disability Insurance you can go to a website or agency that sells many different life insurance products from different companies. Among those, you will find several that carry Disability Insurance and be able to shop among them for your best price.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23977",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "72906925af36553b55c9d0bf70da019cfc646718342fb64c075d148cb9975a9c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 346,
+        "token_start": 0,
+        "token_end": 64
+      },
+      "score": 0.3717414140701294
+    },
+    {
+      "chunk_id": "insuranceqa_13208_128_0",
+      "document_id": "insuranceqa_13208",
+      "title": "InsuranceQA answer 13208",
+      "text": "Collision is a physical damage coverage. That means that the company will pay for a loss sustained by your vehicle as a result of a collision with another object or vehicle and includes upset. Most other physical damage losses are paid under the provisions for comprehensive coverage. Both of these coverages normally have a deductible which causes you to be pay for part of the loss. The basis for settlement is actual cash value in mot cases.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13208",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "602fcebb5f3e06df083d3f3c8b2aa292dac50c901ef79258f05a1608a4d7b215",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 87
+      },
+      "score": 0.3672463893890381
+    },
+    {
+      "chunk_id": "insuranceqa_20127_128_0",
+      "document_id": "insuranceqa_20127",
+      "title": "InsuranceQA answer 20127",
+      "text": "You can get Life Insurance if you have PTSD, or Post Traumatic Stress Disorder. If your PTSD is very mild, you have shown stability for a couple of years, you are being treated successfully or no longer need treatment, and you are able to work full time, you can get medically underwritten coverage of about any amount of life insurance you need. If you are on Disability for your PTSD, have been recently hospitalized for it, or have been experimenting with some different treatment plans to find one that works, you will most likely need to go with a simplified issue policy. The premiums will be higher, the face amount",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "20127",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c7096aae06038babb303627b9ecaeaf715c58bf903ad5ff38f1049cdc36e22da",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 622,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.3651720881462097
+    },
+    {
+      "chunk_id": "insuranceqa_18915_128_0",
+      "document_id": "insuranceqa_18915",
+      "title": "InsuranceQA answer 18915",
+      "text": "Hope your son is getting better! In Washington State, we have a mandatory coverage called Personal Injury Protection. This provides medical coverage for the driver and all passengers in case of an accident. A waiver needs to be signed if the client does not want this coverage. Most insurance companies should have a similar coverage (might be called something different depending on state/company). This coverage also covers the named insured (owner of the policy) as a pedestrian if they are hit by a car.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "18915",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "feadd41f073c13c44ba35cbeaca459b67bcde2a99786cd887e6dbf014e955df3",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 507,
+        "token_start": 0,
+        "token_end": 99
+      },
+      "score": 0.35285213589668274
+    },
+    {
+      "chunk_id": "insuranceqa_20127_128_104",
+      "document_id": "insuranceqa_20127",
+      "title": "InsuranceQA answer 20127",
+      "text": ", you will most likely need to go with a simplified issue policy. The premiums will be higher, the face amount will be limited, and the policy may be graded. But it still is a good choice for persons with debilitating PTSD and will give you peace of mind to have life insurance to cover your final expense needs.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "20127",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c7096aae06038babb303627b9ecaeaf715c58bf903ad5ff38f1049cdc36e22da",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 512,
+        "char_end": 824,
+        "token_start": 104,
+        "token_end": 172
+      },
+      "score": 0.34915298223495483
+    },
+    {
+      "chunk_id": "insuranceqa_3034_128_0",
+      "document_id": "insuranceqa_3034",
+      "title": "InsuranceQA answer 3034",
+      "text": "If you are talking about being covered by group health insurance and also covered by Medicare then it will depend upon the size of the employer group you are working for. If your employer has less than20 employees then Medicare is the primary payer (pays first) and the group health insurance pays in a secondary capacity. If your employer has more than 20+ employees then the group health insurance plan pays first and Medicare pays in a secondary capacity. This is the simplest and generally most common scenarios where this question comes up. However, there are numerous other situations a person may be in (eligible for Medicare and Medicaid, disabled, retired and still",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3034",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "fb6b8837c013a4feabaeb1cfed35681731b3cada1f3750eefbde4d004a20439d",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 674,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.34630346298217773
+    },
+    {
+      "chunk_id": "insuranceqa_24932_128_0",
+      "document_id": "insuranceqa_24932",
+      "title": "InsuranceQA answer 24932",
+      "text": "Your employer does not have to give you health insurance (depending on size etc...) In fact, you will see many small (and perhaps larger) businesses in 2014 opt out of providing health insurance to employees. They will take the penalty and use the savings to be more competitive in their markets. Employees can be helped by experienced brokers since we can shop for them and find the best options.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24932",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "b316b8a78f4620e4a5bb510ab61ab738681915754def98051a86570683324956",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 397,
+        "token_start": 0,
+        "token_end": 81
+      },
+      "score": 0.3444509208202362
+    },
+    {
+      "chunk_id": "insuranceqa_23154_128_0",
+      "document_id": "insuranceqa_23154",
+      "title": "InsuranceQA answer 23154",
+      "text": "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23154",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "583b77f7b3295710164432928d0a042b18c82f6e4bb0303aede925efcc33d76e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 457,
+        "token_start": 0,
+        "token_end": 84
+      },
+      "score": 0.33597123622894287
+    }
+  ],
+  "fused": [
+    {
+      "chunk_id": "insuranceqa_6935_128_0",
+      "document_id": "insuranceqa_6935",
+      "title": "InsuranceQA answer 6935",
+      "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6935",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "7565a69fe7f30dc0bc52c327bdf45a6cbef78fcb0c323a83140c410ef21ab601",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 554,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 1.0,
+      "bm25_normalized": 1.0,
+      "dense_normalized": 1.0
+    },
+    {
+      "chunk_id": "insuranceqa_17120_128_0",
+      "document_id": "insuranceqa_17120",
+      "title": "InsuranceQA answer 17120",
+      "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17120",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5ab2850c6e47647067be7704dc4acf9c236affa5131af91df3d6b2a4ff7de69",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 504,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 0.35994050046677606,
+      "bm25_normalized": 0.15628951902166086,
+      "dense_normalized": 0.5635914819118912
+    },
+    {
+      "chunk_id": "insuranceqa_6574_128_0",
+      "document_id": "insuranceqa_6574",
+      "title": "InsuranceQA answer 6574",
+      "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6574",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f9912bfb47464e4de183b2f8fa95feff59d6f17e2d1fe7dfb7366010f2f0d444",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 599,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.2653555391884354,
+      "bm25_normalized": 0.07253452877606183,
+      "dense_normalized": 0.45817654960080895
+    },
+    {
+      "chunk_id": "insuranceqa_9111_128_0",
+      "document_id": "insuranceqa_9111",
+      "title": "InsuranceQA answer 9111",
+      "text": "They are two totally different policies. Critical Illness pays if you are diagnosed with a critical illness such as heart attack or stroke or other critical illness. A disability policy covers you if you are unable to perform your job due to an accident or illness. It will pay a percentage of your income for a specified period.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "9111",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "a685683adb66da808031fcc2fc21ac8eb84175d6685e4fe39684d35913aa0a8e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 329,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.2086962978614226,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.4173925957228452
+    },
+    {
+      "chunk_id": "insuranceqa_15397_128_0",
+      "document_id": "insuranceqa_15397",
+      "title": "InsuranceQA answer 15397",
+      "text": "If you or your family would be put in an extremely difficult situation if you were to become unable to work for over a couple of months, you need Disability Insurance. While it will not replace all your income, Disability Insurance can keep a short term setback from becoming a tragedy from which you cannot recover financially.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "15397",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "91e3aa2a17265fc80bdc281f5b38300b1b3640ec6ec2e62d266b30169e3782d1",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 328,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.20567162196833638,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.41134324393667276
+    },
+    {
+      "chunk_id": "insuranceqa_26054_128_0",
+      "document_id": "insuranceqa_26054",
+      "title": "InsuranceQA answer 26054",
+      "text": "The business can pay for short or long term disability insurance in a employer sponsored group plan. But some corporations don't carry long term disability in their group plans, so they offer long term disability to their key executives as an extra retention benefit. They may be able to deduct the premiums, however if they do the benefits may be taxable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26054",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6fb741320d6f9d928e0dce2e3dea8e8d4b44c07144a8822f6556b82f5ae0ddae",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 356,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 0.1990819212388224,
+      "bm25_normalized": 0.05383579647634682,
+      "dense_normalized": 0.34432804600129796
+    },
+    {
+      "chunk_id": "insuranceqa_13633_128_0",
+      "document_id": "insuranceqa_13633",
+      "title": "InsuranceQA answer 13633",
+      "text": "Disability Insurance replaces up to 80% of your income at a time when you cannot work. For most people, receiving their income is a necessary factor to live a normal life without tremendous upheaval. Granted, becoming disabled itself can carry emotional, social and physical trauma. But to take away income complicates things at a time when further disruption is not needed. Social Security Disability Insurance does exist, but it takes longer to get, does not replaces as much income as an individual policy, and requires that you cannot work at any job.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13633",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "171bef28a48a790d64de3541376d3c2aa00f3dfec6138656e94c8f663f01f637",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 109
+      },
+      "score": 0.19101211910834753,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.38202423821669507
+    },
+    {
+      "chunk_id": "insuranceqa_13475_128_0",
+      "document_id": "insuranceqa_13475",
+      "title": "InsuranceQA answer 13475",
+      "text": "Buy-Sell Disability Insurance is commonly purchased by business owners to prepare for the financial burden of a partners disability. The policy provides cash for another owner to purchase the disabled partners share of the business. This policy does not replace income, but it does protect the business. The disabled owner is able to sell his portion of the business and the business remains intact and fiscally stable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13475",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0d5f1db7c832bc0f55463b85ddd81fdfae542822efe668bdcf18a150377c9a00",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 419,
+        "token_start": 0,
+        "token_end": 75
+      },
+      "score": 0.18860792479556115,
+      "bm25_normalized": 0.0970437371233821,
+      "dense_normalized": 0.2801721124677402
+    },
+    {
+      "chunk_id": "insuranceqa_24913_128_0",
+      "document_id": "insuranceqa_24913",
+      "title": "InsuranceQA answer 24913",
+      "text": "State Farm lists three types of Disability Insurance on their website: Disability Income Insurance, Mortgage Disability Income Insurance, and Individual Credit Disability Income Insurance. The Disability Income Insurance provides payments to the insured during a period of disability so that they can pay for an incurred expenses. State Farm also sells Group Long Term Disability Insurance.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24913",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "89c04155ff428802061236c047d3d42d29ce42a6a31ce5d04f91898ff8234822",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 390,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 0.18621127655636072,
+      "bm25_normalized": 0.12813694662907396,
+      "dense_normalized": 0.2442856064836475
+    },
+    {
+      "chunk_id": "insuranceqa_26351_128_0",
+      "document_id": "insuranceqa_26351",
+      "title": "InsuranceQA answer 26351",
+      "text": "The #1 thing you need to know about disability insurance is that it is paycheck protection in times of prolonged sickness and injury. You need to select an elimination period. Most Americans have 90 days in cash reserves, so a 90 day elimination period is a consideration. When claims are filled and the elimination period satisfied, the benefits are paid tax free.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26351",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "4e9de0c8b92674b3be1bd78aa1003de59d50f835646a10dc5da00678fc31cfce",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 365,
+        "token_start": 0,
+        "token_end": 71
+      },
+      "score": 0.17955788026478783,
+      "bm25_normalized": 0.034162833380056365,
+      "dense_normalized": 0.3249529271495193
+    },
+    {
+      "chunk_id": "insuranceqa_4085_128_520",
+      "document_id": "insuranceqa_4085",
+      "title": "InsuranceQA answer 4085",
+      "text": "the entire structure after a major loss. Cleaning up the concepts here also makes it necessary to make sure that the contractor has general liability and workers compensation insurance. If they have vehicles that operate on the property you should also insist that they provide evidence of vehicle insurance. In every instance above, you should be listed as an \"additional insured\" and \"certificate holder\" during the performance of the construction tasks. If possible, ask them to waive subrogation. Get evidence in writing. A commonly used form is the \"Acord 25\" Certification of Liability Insurance form and this is commonly provided ask for and get written evidence of coverage as",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "4085",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "21ad7b7facd2e92c15b14f97e705663f931657bba99db4cc0a0a29ff90a1fa60",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 2716,
+        "char_end": 3400,
+        "token_start": 520,
+        "token_end": 648
+      },
+      "score": 0.1749149746436322,
+      "bm25_normalized": 0.3498299492872644,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_22818_128_0",
+      "document_id": "insuranceqa_22818",
+      "title": "InsuranceQA answer 22818",
+      "text": "When buying Disability Insurance, you should be sure to get a policy that pays if you are unable to perform your own occupation. Otherwise, your policy will not pay the benefit unless you are unable to do work of any kind. If you are moving up in your career, purchase the option to add increased benefits without having to qualify again medically in the future. There will be concessions to be made, so look at what is most important to you and keep those features in your policy and cut others. E.g. If you only have 1 month of income in savings, you might want to choose a 1 month elimination period and cut corners",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "22818",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8b51c774e0b592a8d4fa1d318e756cb8f2e45ea3e2ae85a06de2607e301a8d02",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 618,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.15146099397817656,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.3029219879563531
+    },
+    {
+      "chunk_id": "insuranceqa_6016_128_0",
+      "document_id": "insuranceqa_6016",
+      "title": "InsuranceQA answer 6016",
+      "text": "Disability insurance is part of defensive planning. You need to establish your elimination or waiting period and the length of coverage. Most working Americans have around 90 days of cash reserves, so 90 days would be a consideration for a waiting period. If you can afford long term care to age 65, you should secure the coverage. But if it's unaffordable, at least consider short term disability.The are several online brokerage companies that specialize in disability insurance and offer the most competitive carriers in the market.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6016",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "9fc6a880719416cdc2431d7d535eb2a7e4af9e5ddd6238361b5bf5bf4770617b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 535,
+        "token_start": 0,
+        "token_end": 103
+      },
+      "score": 0.15082203612356887,
+      "bm25_normalized": 0.08461302740794609,
+      "dense_normalized": 0.21703104483919167
+    },
+    {
+      "chunk_id": "insuranceqa_16869_128_0",
+      "document_id": "insuranceqa_16869",
+      "title": "InsuranceQA answer 16869",
+      "text": "If you are paying for a personal individual disability policy you want to pay for it from your personal checking account. The reason is with today's tax laws it will not be tax deductible or a business expense unless you are paying for employees. The good news is since you pay premiums with after tax dollars, if you become disable, your benefits are drawn tax free to you.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "16869",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c148702909cb3fc9cffd3674c7ee6a5a04e344ddfecb8a81258312123d0a105a",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 374,
+        "token_start": 0,
+        "token_end": 80
+      },
+      "score": 0.1433180096288806,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.2866360192577612
+    },
+    {
+      "chunk_id": "insuranceqa_26203_128_0",
+      "document_id": "insuranceqa_26203",
+      "title": "InsuranceQA answer 26203",
+      "text": "Many companies do offer disability insurance. However in order to find what's best for you by fitting you with the best product choice you should be prepared to submit some information to analyze your need. One my specialties is in this field and all over the nation. The lower the rate and the more the coverage is the best way. Alway look for one that specializes in this coverage for better results.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26203",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "95c7dc3e9be086eb0f261898d3ed4b4602d5a89be7ae4c6e4bf8774f5e55105e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 402,
+        "token_start": 0,
+        "token_end": 81
+      },
+      "score": 0.1398715333368945,
+      "bm25_normalized": 0.020158889429942848,
+      "dense_normalized": 0.25958417724384614
+    },
+    {
+      "chunk_id": "insuranceqa_23440_128_0",
+      "document_id": "insuranceqa_23440",
+      "title": "InsuranceQA answer 23440",
+      "text": "If you are self employed and paying the cost of your health and disability insurance then it may be tax deductible. It is always good to consult your tax adviser for your individual situation however since each situation is different. For example, some people operate a side business and file a schedule C. Their insurance is paid through an employer. In this case, even though they file Schedule C, the premiums they pay may not be deductible.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23440",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6b33a46471ab541a609b3c5a5e292b67e0e77b1e3877b7a7d1f1033066106761",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 92
+      },
+      "score": 0.11437853672741381,
+      "bm25_normalized": 0.01514763171861066,
+      "dense_normalized": 0.21360944173621696
+    },
+    {
+      "chunk_id": "insuranceqa_24378_128_0",
+      "document_id": "insuranceqa_24378",
+      "title": "InsuranceQA answer 24378",
+      "text": "Yes. And, they can be from different carriers, although I recommend that for convenience sake that they be from the same carrier, if possible. If you go on claim, you might have double the paperwork with two, separate carriers. It often happens, for example, that one be covered by a group plan at work and yet still not have up to 2/3 of income insured against disability. The maximum monthly benefit allowable on the group plan and any other voluntary employee DI benefits one can buy might not stretch to reach that goal. (The total amount of income replacement from all coverage usually cannot exceed 2/3 of income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24378",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "39306a1beeb061f29a4a3ee6894524e941f605982bc2b3e9d644e41be0718dc5",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 619,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.10350995336482591,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.20701990672965181
+    },
+    {
+      "chunk_id": "insuranceqa_14933_128_0",
+      "document_id": "insuranceqa_14933",
+      "title": "InsuranceQA answer 14933",
+      "text": "Critical Illness Insurance is not the same as PPI, or Payment Protection Insurance. Critical Illness Insurance pays a cash benefit to the person insured by the policy, when the insured person is diagnosed with a serious disease listed in the policy. The cash benefit can be used as the insured person wishes. PPI payments are triggered when the insured person is unable to work due to job loss. The inability to work may be due to illness or other reasons. The payments go to repay a lender who is carrying a mortgage or large loan for the insured person.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "14933",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "81398bc2f3dec3d57b37f16e5be45fb4d141cb0c02388592ed422191ee067aab",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 115
+      },
+      "score": 0.10320659168804548,
+      "bm25_normalized": 0.08068946282492057,
+      "dense_normalized": 0.1257237205511704
+    },
+    {
+      "chunk_id": "insuranceqa_9857_128_0",
+      "document_id": "insuranceqa_9857",
+      "title": "InsuranceQA answer 9857",
+      "text": "Well to be exact. Social Security benefits are paid for by taxable income and is federal. Tbis benefit is usually for retirement at Age 65. Other circumstances like permanent or serious injury that causes a person the inability to perform living activities or job functions will be administered earlier to.help with living expenses. There is no premium and you may consider paid when you received your paycheck.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "9857",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "68b643e37fb77ed7594eaa9b897dc960263773cd85f6c6d42cf5290d58059dba",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 411,
+        "token_start": 0,
+        "token_end": 78
+      },
+      "score": 0.08165508081920947,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.16331016163841894
+    },
+    {
+      "chunk_id": "insuranceqa_3816_128_0",
+      "document_id": "insuranceqa_3816",
+      "title": "InsuranceQA answer 3816",
+      "text": "You can purchase Short Term Disability Insurance; however, the number of companies that sell it are extremely limited, compared to the number that sell Long Term Disability Insurance. Also, the premiums are steep. But if you want to use it for the purpose of a known need like pregnancy, it can be worth it.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3816",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0889a8afe826e05ca9424f365e291176fd3e15511cf57e459f0bf0238b71751c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 307,
+        "token_start": 0,
+        "token_end": 63
+      },
+      "score": 0.07387274803771599,
+      "bm25_normalized": 0.036890759360419675,
+      "dense_normalized": 0.1108547367150123
+    },
+    {
+      "chunk_id": "insuranceqa_13071_128_0",
+      "document_id": "insuranceqa_13071",
+      "title": "InsuranceQA answer 13071",
+      "text": "Life insurance face value is the death benefit paid by the life insurance policy. In Term life insurance, the face value is the amount of life insurance that was taken out. In Permanent life insurance that has cash value, the face value is, again, the amount of coverage purchased. Face value is not the same as cash value.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13071",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "1bb6e36e9eafa1201a10a1a5d1e43f257bc4facbcabeb97ca097c47dd9f9e09b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 323,
+        "token_start": 0,
+        "token_end": 66
+      },
+      "score": 0.07345146276977314,
+      "bm25_normalized": 0.1469029255395463,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_395_128_0",
+      "document_id": "insuranceqa_395",
+      "title": "InsuranceQA answer 395",
+      "text": "A simplified employee pension program is based on an IRA. However, since it is sponsored by the employer the limit for contributions is much higher (25% of compensation up to $52,000.) Each participant has a separate account. There is a minimum contribution for each SEP participant of $550. For additional information contact a life insurance agent that specializes in retirement programs.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "395",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c64b58d68a0da99ac743932cc2d1ebe06042b7dc28be88645d58fb5451544e48",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 390,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 0.07243147240873765,
+      "bm25_normalized": 0.1448629448174753,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_14753_128_0",
+      "document_id": "insuranceqa_14753",
+      "title": "InsuranceQA answer 14753",
+      "text": "How to shop for long term disability care insurance? First start with a group of companies to compare from. Then READ the plans. The most important anything in a disability policy is the definition of what is disability. It doesn't matter how long or how much if you never met the definition of disability stated inside the policy. The cheapest premiums with the highest payouts mean nothing if you never meet the policy's definition.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "14753",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "e24a3fc3eb68b00425c23ed6b48867f8758f4699ebe28595238baa2455b910f5",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 434,
+        "token_start": 0,
+        "token_end": 87
+      },
+      "score": 0.0698246201023752,
+      "bm25_normalized": 0.1396492402047504,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_22210_128_0",
+      "document_id": "insuranceqa_22210",
+      "title": "InsuranceQA answer 22210",
+      "text": "Your question does not have an easy or simple answer. When you receive treatment from a medical provider you accept financial responsibility for claims not paid by your health insurance carrier. The health insurance company is a guarantor of sorts (if you have a fully insured plan) but there may also be other carriers backing them up. With self funded health insurance your employer or union is the guarantor and they may have reinsurance in place to back them.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "22210",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "36db263727902c894a10d080d53113c7f579317b6dcb2a5940345ad615ff9ffe",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 463,
+        "token_start": 0,
+        "token_end": 91
+      },
+      "score": 0.06434265533738813,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.12868531067477626
+    },
+    {
+      "chunk_id": "insuranceqa_12454_128_0",
+      "document_id": "insuranceqa_12454",
+      "title": "InsuranceQA answer 12454",
+      "text": "Coverage for liability arising from personal injury or property damage is an integral part of most homeowners policies. This coverage is extremely important but often overlooked. The whole field of personal injury is a very active arena for litigation. What I routinely recommend is that the policyholder take the maximum amount of liability protection available and then consider an umbrella policy to further extend coverage.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "12454",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "dd895abcf26fcb6104ba7ff4b920eacbff5ad17369e98417e89a0f2b230811aa",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 427,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 0.06255177409861302,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.12510354819722605
+    },
+    {
+      "chunk_id": "insuranceqa_23977_128_0",
+      "document_id": "insuranceqa_23977",
+      "title": "InsuranceQA answer 23977",
+      "text": "No, Primerica does not list Disability Insurance in the list of products that they sell. To find Disability Insurance you can go to a website or agency that sells many different life insurance products from different companies. Among those, you will find several that carry Disability Insurance and be able to shop among them for your best price.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23977",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "72906925af36553b55c9d0bf70da019cfc646718342fb64c075d148cb9975a9c",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 346,
+        "token_start": 0,
+        "token_end": 64
+      },
+      "score": 0.05412262245882229,
+      "bm25_normalized": 0.035787284489627244,
+      "dense_normalized": 0.07245796042801733
+    },
+    {
+      "chunk_id": "insuranceqa_24167_128_0",
+      "document_id": "insuranceqa_24167",
+      "title": "InsuranceQA answer 24167",
+      "text": "15 year Term Life Insurance is life insurance that will provide coverage for 15 years. The price is assumed to stay the same during that 15 years, but that is not always guaranteed, so a good question to ask before purchasing the policy. When the 15 years end, you either have to apply for a new policy or pay a new and higher price for the same policy.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24167",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6d1588ea0abccd5e99ba8d7583dbd41f966f2e52c3ca253efc190ab826a3c700",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 353,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 0.052065109024274525,
+      "bm25_normalized": 0.10413021804854905,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_12415_128_0",
+      "document_id": "insuranceqa_12415",
+      "title": "InsuranceQA answer 12415",
+      "text": "Damage to a pool is covered as long as it is not an excluded loss such as \"wear and tear\", \"ground movement\" or a maintenance issue. Most home insurance policies cover all losses except what is excluded in the policy and a pool would be covered the same as your house.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "12415",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "38476a477a07e703947d1360a1ccd1821529991aa7912dd8bf66a7e972d1c587",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 268,
+        "token_start": 0,
+        "token_end": 58
+      },
+      "score": 0.043637910741457585,
+      "bm25_normalized": 0.08727582148291517,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_19507_128_0",
+      "document_id": "insuranceqa_19507",
+      "title": "InsuranceQA answer 19507",
+      "text": "One good place to start is your state department of insurance. Many states have now established policy locater services. Another resource is the carrier from which the insured bought other policies. People frequently buy life insurance from the same company that provided their home and auto coverages. And, as mentioned by my colleagues, you have the Medical Information Bureau ( WEBSITELINK as well as private locater services.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "19507",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8587dd4d3af9169eff4598022858c61b6e68ec13347fb60d5d3adfe320a87ab8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 429,
+        "token_start": 0,
+        "token_end": 79
+      },
+      "score": 0.04140406874419451,
+      "bm25_normalized": 0.08280813748838901,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_4044_128_0",
+      "document_id": "insuranceqa_4044",
+      "title": "InsuranceQA answer 4044",
+      "text": "Generally no, but there may be exceptions. Most long term disability plans have waiting periods of 90 days or longer before you may be eligible for benefits. You would need to meet the definition of total and permanent disability in most cases, although some plans may have partial disability benefits.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "4044",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f3d056612a42310089e3a4d482ae38f0e2c2e88a578310f10415d7dc5f7b3ab2",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 302,
+        "token_start": 0,
+        "token_end": 55
+      },
+      "score": 0.039936431277260445,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.07987286255452089
+    },
+    {
+      "chunk_id": "insuranceqa_21501_128_0",
+      "document_id": "insuranceqa_21501",
+      "title": "InsuranceQA answer 21501",
+      "text": "The answer to who has the cheapest Disability Insurance in Wisconsin will vary from person to person. That is because some companies cater to certain professions, others have the best price for persons of a certain age, etc. And the price will vary depending on the bells and whistles you choose, the elimination period you select, and other features. Using a broker that sells Disability Insurance from multiple companies can help you find the cheapest rate for the best coverage.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "21501",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "8e8cad1d257d3be454189fef4a00cb48e23c5932190bbb14827cebf59d018ef4",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 481,
+        "token_start": 0,
+        "token_end": 91
+      },
+      "score": 0.03719097593817006,
+      "bm25_normalized": 0.07438195187634011,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_6151_128_0",
+      "document_id": "insuranceqa_6151",
+      "title": "InsuranceQA answer 6151",
+      "text": "I personally never recommend long term care insurance until a person is at least mid 50s to early 60s. I believe long term disability insurance is more important in your 40s if you are still earning income. There are many other insurance products to consider in your financial plan and long term care insurance is near the bottom of the list in your 40s.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6151",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "1ad5cb13b591e48e35741a7c8f0457fb78175fd003e9fe89fb490bacc64a3f49",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 354,
+        "token_start": 0,
+        "token_end": 70
+      },
+      "score": 0.03304367076418239,
+      "bm25_normalized": 0.06608734152836478,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_8079_128_0",
+      "document_id": "insuranceqa_8079",
+      "title": "InsuranceQA answer 8079",
+      "text": "Is Life Insurance is not a Pyramid Scheme. Life insurance is not a Ponzi scheme. Life insurance is not a multi-level marketing pyramid, although it can be sold like one via marketing multi-level distribution channel. Its built on the actuarial premise of the law of large numbers. The statistical odds of everyone covered with life insurance dying at the same time are too great to calculate. Bottom line it is one of the great societal financial products of the last 300 years.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "8079",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "0148eaac1272917ac106173455cee22bfbe7b8f53c4d311c0a58ec044d75c5d8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 478,
+        "token_start": 0,
+        "token_end": 97
+      },
+      "score": 0.03256776487344498,
+      "bm25_normalized": 0.06513552974688996,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_13208_128_0",
+      "document_id": "insuranceqa_13208",
+      "title": "InsuranceQA answer 13208",
+      "text": "Collision is a physical damage coverage. That means that the company will pay for a loss sustained by your vehicle as a result of a collision with another object or vehicle and includes upset. Most other physical damage losses are paid under the provisions for comprehensive coverage. Both of these coverages normally have a deductible which causes you to be pay for part of the loss. The basis for settlement is actual cash value in mot cases.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13208",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "602fcebb5f3e06df083d3f3c8b2aa292dac50c901ef79258f05a1608a4d7b215",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 87
+      },
+      "score": 0.03167630057803468,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.06335260115606936
+    },
+    {
+      "chunk_id": "insuranceqa_20127_128_0",
+      "document_id": "insuranceqa_20127",
+      "title": "InsuranceQA answer 20127",
+      "text": "You can get Life Insurance if you have PTSD, or Post Traumatic Stress Disorder. If your PTSD is very mild, you have shown stability for a couple of years, you are being treated successfully or no longer need treatment, and you are able to work full time, you can get medically underwritten coverage of about any amount of life insurance you need. If you are on Disability for your PTSD, have been recently hospitalized for it, or have been experimenting with some different treatment plans to find one that works, you will most likely need to go with a simplified issue policy. The premiums will be higher, the face amount",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "20127",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c7096aae06038babb303627b9ecaeaf715c58bf903ad5ff38f1049cdc36e22da",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 622,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.029575393531444786,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.05915078706288957
+    },
+    {
+      "chunk_id": "insuranceqa_803_128_0",
+      "document_id": "insuranceqa_803",
+      "title": "InsuranceQA answer 803",
+      "text": "Stillwater Insurance Company has the Best Renters Insurance Rates in most States and most geographic areas. PersonalProperty coverage is available up to $300,000, the minimum available limit of personal property is $10,000 for all states, with exception to CA and NM where it is $15,000 and FL where the minimum limit is $25,000. Live in partners, such as a boy-friend/girl-friend, areaccepted on the same policy and both partners may be listed as Named or AdditionalNamed Insured. Two immediate family memberts (adult siblings or parent/adult child) are accepted",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "803",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "741d6caca85f6706a221fa921cf831bc19e4d9421f9de36af68168944d0245c0",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 563,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.02228945861730968,
+      "bm25_normalized": 0.04457891723461936,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_7421_128_0",
+      "document_id": "insuranceqa_7421",
+      "title": "InsuranceQA answer 7421",
+      "text": "Life Insurance is one of the best ways to deal with unexpected losses and events. It can be used to control a large amount of cash (face value) for a relatively small premium creating control of an asset with little cash and great leverage. People need life insurance to cover events such as death and disability. The use of insurance has helped many people survive very hard times.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "7421",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "de3c76cf0ec2eca64e18c440c76fbc47728371d9775e62a276ae13953b40f3d7",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 382,
+        "token_start": 0,
+        "token_end": 74
+      },
+      "score": 0.019434316142138273,
+      "bm25_normalized": 0.03886863228427655,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_18915_128_0",
+      "document_id": "insuranceqa_18915",
+      "title": "InsuranceQA answer 18915",
+      "text": "Hope your son is getting better! In Washington State, we have a mandatory coverage called Personal Injury Protection. This provides medical coverage for the driver and all passengers in case of an accident. A waiver needs to be signed if the client does not want this coverage. Most insurance companies should have a similar coverage (might be called something different depending on state/company). This coverage also covers the named insured (owner of the policy) as a pedestrian if they are hit by a car.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "18915",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "feadd41f073c13c44ba35cbeaca459b67bcde2a99786cd887e6dbf014e955df3",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 507,
+        "token_start": 0,
+        "token_end": 99
+      },
+      "score": 0.017097420727750192,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.034194841455500384
+    },
+    {
+      "chunk_id": "insuranceqa_20127_128_104",
+      "document_id": "insuranceqa_20127",
+      "title": "InsuranceQA answer 20127",
+      "text": ", you will most likely need to go with a simplified issue policy. The premiums will be higher, the face amount will be limited, and the policy may be graded. But it still is a good choice for persons with debilitating PTSD and will give you peace of mind to have life insurance to cover your final expense needs.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "20127",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "c7096aae06038babb303627b9ecaeaf715c58bf903ad5ff38f1049cdc36e22da",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 512,
+        "char_end": 824,
+        "token_start": 104,
+        "token_end": 172
+      },
+      "score": 0.013350820265926138,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.026701640531852276
+    },
+    {
+      "chunk_id": "insuranceqa_23013_128_0",
+      "document_id": "insuranceqa_23013",
+      "title": "InsuranceQA answer 23013",
+      "text": "Reduced Paid Up policies result from exercising one of the standard nonforfeiture options in cash value policies. When a policy owner wants to stop paying required premiums, it is one of the alternatives to surrendering the coverage for its cash value. In this case, the death benefit is reduced from the amount of the original policy to a level that can be purchased by the available cash value. The paid-up policy is the same type of insurance as the basic policy from which the cash value is being used. Cash values will grow in the paid-up policy.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23013",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "fbad19058b617ec7ad0ae0aeb3fbafcf1fced7e0888b1486d908d61a1645a592",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 551,
+        "token_start": 0,
+        "token_end": 113
+      },
+      "score": 0.013328614978063051,
+      "bm25_normalized": 0.026657229956126103,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_11607_128_0",
+      "document_id": "insuranceqa_11607",
+      "title": "InsuranceQA answer 11607",
+      "text": "When you apply to buy insurance, most insurance companies will take your credit into consideration. It is considered a \"soft hit\". It will show up on your credit history that there was an inquiry, it doesn't change or effect your credit. So whatever your credit score was before you apply for insurance is what it will be after applying. To my knowledge, California is one of the states that mandates insurance companies not take a person's credit history into consideration when rating the premium. You can check with an insurance agent or broker licensed in your state to see if your state as the same rules.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "11607",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5f9d70c4a0923f53f6080918f17ab2b21d0ba1b4dfc203e51a4ebb729bad51f",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 610,
+        "token_start": 0,
+        "token_end": 121
+      },
+      "score": 0.011912332875761331,
+      "bm25_normalized": 0.023824665751522662,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_3034_128_0",
+      "document_id": "insuranceqa_3034",
+      "title": "InsuranceQA answer 3034",
+      "text": "If you are talking about being covered by group health insurance and also covered by Medicare then it will depend upon the size of the employer group you are working for. If your employer has less than20 employees then Medicare is the primary payer (pays first) and the group health insurance pays in a secondary capacity. If your employer has more than 20+ employees then the group health insurance plan pays first and Medicare pays in a secondary capacity. This is the simplest and generally most common scenarios where this question comes up. However, there are numerous other situations a person may be in (eligible for Medicare and Medicaid, disabled, retired and still",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3034",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "fb6b8837c013a4feabaeb1cfed35681731b3cada1f3750eefbde4d004a20439d",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 674,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.010464751958224543,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.020929503916449085
+    },
+    {
+      "chunk_id": "insuranceqa_24932_128_0",
+      "document_id": "insuranceqa_24932",
+      "title": "InsuranceQA answer 24932",
+      "text": "Your employer does not have to give you health insurance (depending on size etc...) In fact, you will see many small (and perhaps larger) businesses in 2014 opt out of providing health insurance to employees. They will take the penalty and use the savings to be more competitive in their markets. Employees can be helped by experienced brokers since we can shop for them and find the best options.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24932",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "b316b8a78f4620e4a5bb510ab61ab738681915754def98051a86570683324956",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 397,
+        "token_start": 0,
+        "token_end": 81
+      },
+      "score": 0.008588448361731992,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.017176896723463984
+    },
+    {
+      "chunk_id": "insuranceqa_3834_128_0",
+      "document_id": "insuranceqa_3834",
+      "title": "InsuranceQA answer 3834",
+      "text": "In Florida, the best Medicare Supplement (Medigap) Plan will depend on your individual needs. Across the United States, Medigap Plans are standardized (plans have same benefits regardless of insurance carrier). Not only can you use your plan benefits in Florida but anywhere in the U.S. as long as the provider accepts Medicare. Plan F is very popular because it covers all Medicare approved charges. But that does not mean it is the best plan for everyone. Plan F is the most expensive plan and Florida's rates are among the highest in the country, and even though you can use your Medigap Plan outside of the",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "3834",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "76441056a82231cca4ce6256f96ccffca6f951c340afd1e7bf05bc9bf02cb6f8",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 610,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.0058305604498350315,
+      "bm25_normalized": 0.011661120899670063,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_17555_128_0",
+      "document_id": "insuranceqa_17555",
+      "title": "InsuranceQA answer 17555",
+      "text": "The Centers for Medicare & Medicaid Services (also known as CMS) is a US Department of Health & Human Service agency. They are responsible for running several federal health care programs with Medicare and Medicaid being the 2 main programs. Medicare is a federal health insurance program that you are eligible for at age 65 or if you qualify from a disability. Medicaid is a federal and state run program. It provides health care services for certain individuals who qualify based on their income .",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17555",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "158494520f4ff9be1e0405234e8983c76788a525c296444aa40ab58929f8e955",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 499,
+        "token_start": 0,
+        "token_end": 98
+      },
+      "score": 0.004098561912131925,
+      "bm25_normalized": 0.00819712382426385,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_10012_128_0",
+      "document_id": "insuranceqa_10012",
+      "title": "InsuranceQA answer 10012",
+      "text": "The best Medicare supplemental insurance plan in your state is one that matches your needs and budget. Medigap insurance rates vary considerably by zip code, age, tobacco use and plan. The older you are the higher your Medicare supplement rate will be. The exception is for those who are under age 65 and on disability and Medicare. In most states rates for under age 65 are astronomical. Many carriers offer competitive rates from age 65 to 74. Above age 74 some plans (surprisingly) become more competitive while others less so. Tobacco use often adds 20% to the rate but can be more, depending on the carrier. Plan F is the most expensive",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "10012",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "eae0a33857ea0227cf1a78ab7a80ee1f85e215c38fc5dd082a6f09c896654e5f",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 641,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.0,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.0
+    },
+    {
+      "chunk_id": "insuranceqa_23154_128_0",
+      "document_id": "insuranceqa_23154",
+      "title": "InsuranceQA answer 23154",
+      "text": "A health insurance 1500 claim form is a standard claim form issued by the Center for Medicaid and Medicare Services that used by a non-institutional providers and suppliers to bill Medicare insurance companies and durable medical equipment regional carriers, as well as some Medicaid State Agencies.This form is usedwhen a provider qualifies for a waiver from the Administrative Simplification Compliance Act requirement for electronic submission of claims.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23154",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "583b77f7b3295710164432928d0a042b18c82f6e4bb0303aede925efcc33d76e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 457,
+        "token_start": 0,
+        "token_end": 84
+      },
+      "score": 0.0,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.0
+    }
+  ],
+  "reranked": [
+    {
+      "chunk_id": "insuranceqa_6935_128_0",
+      "document_id": "insuranceqa_6935",
+      "title": "InsuranceQA answer 6935",
+      "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6935",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "7565a69fe7f30dc0bc52c327bdf45a6cbef78fcb0c323a83140c410ef21ab601",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 554,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 1.0,
+      "bm25_normalized": 1.0,
+      "dense_normalized": 1.0,
+      "reranker_score": 11.380903244018555
+    },
+    {
+      "chunk_id": "insuranceqa_6574_128_0",
+      "document_id": "insuranceqa_6574",
+      "title": "InsuranceQA answer 6574",
+      "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6574",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f9912bfb47464e4de183b2f8fa95feff59d6f17e2d1fe7dfb7366010f2f0d444",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 599,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.2653555391884354,
+      "bm25_normalized": 0.07253452877606183,
+      "dense_normalized": 0.45817654960080895,
+      "reranker_score": 0.5666121244430542
+    },
+    {
+      "chunk_id": "insuranceqa_17120_128_0",
+      "document_id": "insuranceqa_17120",
+      "title": "InsuranceQA answer 17120",
+      "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "17120",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "f5ab2850c6e47647067be7704dc4acf9c236affa5131af91df3d6b2a4ff7de69",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 504,
+        "token_start": 0,
+        "token_end": 104
+      },
+      "score": 0.35994050046677606,
+      "bm25_normalized": 0.15628951902166086,
+      "dense_normalized": 0.5635914819118912,
+      "reranker_score": 0.22303132712841034
+    },
+    {
+      "chunk_id": "insuranceqa_9111_128_0",
+      "document_id": "insuranceqa_9111",
+      "title": "InsuranceQA answer 9111",
+      "text": "They are two totally different policies. Critical Illness pays if you are diagnosed with a critical illness such as heart attack or stroke or other critical illness. A disability policy covers you if you are unable to perform your job due to an accident or illness. It will pay a percentage of your income for a specified period.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "9111",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "a685683adb66da808031fcc2fc21ac8eb84175d6685e4fe39684d35913aa0a8e",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 329,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.2086962978614226,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.4173925957228452,
+      "reranker_score": -0.6384718418121338
+    },
+    {
+      "chunk_id": "insuranceqa_26054_128_0",
+      "document_id": "insuranceqa_26054",
+      "title": "InsuranceQA answer 26054",
+      "text": "The business can pay for short or long term disability insurance in a employer sponsored group plan. But some corporations don't carry long term disability in their group plans, so they offer long term disability to their key executives as an extra retention benefit. They may be able to deduct the premiums, however if they do the benefits may be taxable.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "26054",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6fb741320d6f9d928e0dce2e3dea8e8d4b44c07144a8822f6556b82f5ae0ddae",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 356,
+        "token_start": 0,
+        "token_end": 72
+      },
+      "score": 0.1990819212388224,
+      "bm25_normalized": 0.05383579647634682,
+      "dense_normalized": 0.34432804600129796,
+      "reranker_score": -0.9452816247940063
+    },
+    {
+      "chunk_id": "insuranceqa_13633_128_0",
+      "document_id": "insuranceqa_13633",
+      "title": "InsuranceQA answer 13633",
+      "text": "Disability Insurance replaces up to 80% of your income at a time when you cannot work. For most people, receiving their income is a necessary factor to live a normal life without tremendous upheaval. Granted, becoming disabled itself can carry emotional, social and physical trauma. But to take away income complicates things at a time when further disruption is not needed. Social Security Disability Insurance does exist, but it takes longer to get, does not replaces as much income as an individual policy, and requires that you cannot work at any job.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "13633",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "171bef28a48a790d64de3541376d3c2aa00f3dfec6138656e94c8f663f01f637",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 555,
+        "token_start": 0,
+        "token_end": 109
+      },
+      "score": 0.19101211910834753,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.38202423821669507,
+      "reranker_score": -0.953137993812561
+    },
+    {
+      "chunk_id": "insuranceqa_24378_128_0",
+      "document_id": "insuranceqa_24378",
+      "title": "InsuranceQA answer 24378",
+      "text": "Yes. And, they can be from different carriers, although I recommend that for convenience sake that they be from the same carrier, if possible. If you go on claim, you might have double the paperwork with two, separate carriers. It often happens, for example, that one be covered by a group plan at work and yet still not have up to 2/3 of income insured against disability. The maximum monthly benefit allowable on the group plan and any other voluntary employee DI benefits one can buy might not stretch to reach that goal. (The total amount of income replacement from all coverage usually cannot exceed 2/3 of income.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "24378",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "39306a1beeb061f29a4a3ee6894524e941f605982bc2b3e9d644e41be0718dc5",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 619,
+        "token_start": 0,
+        "token_end": 128
+      },
+      "score": 0.10350995336482591,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.20701990672965181,
+      "reranker_score": -1.337617039680481
+    },
+    {
+      "chunk_id": "insuranceqa_15397_128_0",
+      "document_id": "insuranceqa_15397",
+      "title": "InsuranceQA answer 15397",
+      "text": "If you or your family would be put in an extremely difficult situation if you were to become unable to work for over a couple of months, you need Disability Insurance. While it will not replace all your income, Disability Insurance can keep a short term setback from becoming a tragedy from which you cannot recover financially.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "15397",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "91e3aa2a17265fc80bdc281f5b38300b1b3640ec6ec2e62d266b30169e3782d1",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 328,
+        "token_start": 0,
+        "token_end": 62
+      },
+      "score": 0.20567162196833638,
+      "bm25_normalized": 0.0,
+      "dense_normalized": 0.41134324393667276,
+      "reranker_score": -1.6656441688537598
+    },
+    {
+      "chunk_id": "insuranceqa_6016_128_0",
+      "document_id": "insuranceqa_6016",
+      "title": "InsuranceQA answer 6016",
+      "text": "Disability insurance is part of defensive planning. You need to establish your elimination or waiting period and the length of coverage. Most working Americans have around 90 days of cash reserves, so 90 days would be a consideration for a waiting period. If you can afford long term care to age 65, you should secure the coverage. But if it's unaffordable, at least consider short term disability.The are several online brokerage companies that specialize in disability insurance and offer the most competitive carriers in the market.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "6016",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "9fc6a880719416cdc2431d7d535eb2a7e4af9e5ddd6238361b5bf5bf4770617b",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 535,
+        "token_start": 0,
+        "token_end": 103
+      },
+      "score": 0.15082203612356887,
+      "bm25_normalized": 0.08461302740794609,
+      "dense_normalized": 0.21703104483919167,
+      "reranker_score": -1.9705681800842285
+    },
+    {
+      "chunk_id": "insuranceqa_23440_128_0",
+      "document_id": "insuranceqa_23440",
+      "title": "InsuranceQA answer 23440",
+      "text": "If you are self employed and paying the cost of your health and disability insurance then it may be tax deductible. It is always good to consult your tax adviser for your individual situation however since each situation is different. For example, some people operate a side business and file a schedule C. Their insurance is paid through an employer. In this case, even though they file Schedule C, the premiums they pay may not be deductible.",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "metadata": {
+        "dataset": "InsuranceQA V2",
+        "answer_id": "23440",
+        "upstream_commit": "5c380dd086067adacc2fec3bfa920a78e57bdcf6",
+        "sha256": "6b33a46471ab541a609b3c5a5e292b67e0e77b1e3877b7a7d1f1033066106761",
+        "usage": "Research purpose only; cite Feng et al., ASRU 2015",
+        "content_note": "Historical reference text, not verified current insurance advice",
+        "char_start": 0,
+        "char_end": 444,
+        "token_start": 0,
+        "token_end": 92
+      },
+      "score": 0.11437853672741381,
+      "bm25_normalized": 0.01514763171861066,
+      "dense_normalized": 0.21360944173621696,
+      "reranker_score": -2.0848336219787598
+    }
+  ],
+  "final_context": [
+    {
+      "chunk_id": "insuranceqa_6935_128_0",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income."
+    },
+    {
+      "chunk_id": "insuranceqa_6574_128_0",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle."
+    },
+    {
+      "chunk_id": "insuranceqa_17120_128_0",
+      "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+      "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser."
+    }
+  ],
+  "generation": {
+    "answer": "No\nContext sources supplied: [insuranceqa_6935_128_0] [insuranceqa_6574_128_0] [insuranceqa_17120_128_0]",
+    "model_text": "No",
+    "sources": [
+      {
+        "chunk_id": "insuranceqa_6935_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz"
+      },
+      {
+        "chunk_id": "insuranceqa_6574_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz"
+      },
+      {
+        "chunk_id": "insuranceqa_17120_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz"
+      }
+    ],
+    "context": [
+      {
+        "chunk_id": "insuranceqa_6935_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+        "text": "No, workers compensation is not the same as disability insurance. Workers compensation insurance is insurance purchased by an employer to cover employees who become injured on the job and as result can no longer work. It provides income benefits to the covered employee while they are out of work. Disability insurance covers an individual regardless of the time place and manner of the event that prevents them from working (i.e. it does not have to happen at work). Disability insurance is also generally set up to cover a larger amount of lost income."
+      },
+      {
+        "chunk_id": "insuranceqa_6574_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+        "text": "Disability Insurance protects your paycheck. Only people who draw an income can purchase Disability Insurance, and the benefit you can get is based on your income. If you were injured and unable to go to work, or got an illness that caused you to be off of work, or had complications in childbirth that kept you from going back to work as planned, Disability Insurance will pay a large % of your paycheck to you in cash each week. You can use this money just as you would have used the paycheck you earned through your job. So in essence, DI also protects your family, your home, and your lifestyle."
+      },
+      {
+        "chunk_id": "insuranceqa_17120_128_0",
+        "source": "https://github.com/shuzi/insuranceQA/blob/5c380dd086067adacc2fec3bfa920a78e57bdcf6/V2/InsuranceQA.label2answer.raw.encoded.gz",
+        "text": "Disability insurance is also known as paycheck insurance as it protects your most valuable asset...your paycheck or income. Your income is what you use to buy all of your other assets ... house, car, college, retirement so it is the overall most important asset. If you cannot work because of illness or injury, a disability insurance policy will pay you a benefit. Disability insurance policies have many options (called riders), so it is important to discuss this purchase with a knowledgeable adviser."
+      }
+    ],
+    "model_citations": [],
+    "retried_citation_only": true,
+    "first_model_output": "[1]"
+  }
+}

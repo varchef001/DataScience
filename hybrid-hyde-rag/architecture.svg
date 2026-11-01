@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1030" viewBox="0 0 840 1030">
+<rect width="840" height="1030" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#475569"/></marker></defs>
+<text x="420" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="bold" fill="#172033">HyDE + Hybrid RAG</text>
+<text x="420" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="normal" fill="#172033">Insurance / Python question answering</text>
+<rect x="40" y="100" width="760" height="140" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="420.0" y="153.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">OFFLINE: official documentation -&gt; clean and deduplicate</text>
+<text x="420.0" y="175.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Chunk at 128 or 220 tokens; keep IDs and source metadata</text>
+<text x="420.0" y="197.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Build BM25 index + normalized embeddings / FAISS index</text>
+<rect x="305" y="280" width="230" height="60" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="420.0" y="315.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Original question Q</text>
+<path d="M100 240 L100 360 L170 390" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M780 240 L810 240 L810 522 L770 522" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M365 340 L200 390" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M475 340 L640 390" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="70" y="390" width="260" height="70" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="200.0" y="419.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">BM25 lexical retrieval</text>
+<text x="200.0" y="441.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Use original question Q</text>
+<rect x="510" y="390" width="260" height="70" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="640.0" y="419.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">HF generator creates H</text>
+<text x="640.0" y="441.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Hypothetical document</text>
+<path d="M640 460 L640 490" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="510" y="490" width="260" height="65" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="640.0" y="516.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Embed H -&gt; FAISS</text>
+<text x="640.0" y="538.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Dense retrieval</text>
+<path d="M200 460 L200 590 L350 630" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M640 555 L490 630" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="240" y="630" width="360" height="75" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="420.0" y="661.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Normalize scores + weighted fusion</text>
+<text x="420.0" y="683.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Deduplicate by chunk_id</text>
+<path d="M420 705 L420 735" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="240" y="735" width="360" height="65" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="420.0" y="761.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Cross-encoder reranks top 30</text>
+<text x="420.0" y="783.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Select context chunks</text>
+<path d="M420 800 L420 830" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="180" y="830" width="480" height="70" rx="8" fill="#edf3f8" stroke="#94a3b8"/>
+<text x="420.0" y="859.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">HF generator: original Q + real context</text>
+<text x="420.0" y="881.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="normal" fill="#172033">Answer / insufficient evidence + source IDs</text>
+<text x="420" y="946" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#172033">HyDE text is used for retrieval only, never as evidence.</text>
+<text x="420" y="975" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="normal" fill="#172033">E1-E5 bypass selected stages; E6 includes reranking.</text>
+</svg>
