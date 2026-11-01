@@ -1,0 +1,17 @@
+test_api_failure (test_local.LocalTests.test_api_failure) ... ok
+test_arithmetic (test_local.LocalTests.test_arithmetic) ... ok
+test_date (test_local.LocalTests.test_date) ... ok
+test_errors_return_to_model (test_local.LocalTests.test_errors_return_to_model) ... ok
+test_final_answer_stops (test_local.LocalTests.test_final_answer_stops) ... ok
+test_missing_folder (test_local.LocalTests.test_missing_folder) ... ok
+test_percentage (test_local.LocalTests.test_percentage) ... ok
+test_search (test_local.LocalTests.test_search) ... ok
+test_step_limit (test_local.LocalTests.test_step_limit) ... ok
+test_unsafe_expression (test_local.LocalTests.test_unsafe_expression) ... ok
+test_validation (test_local.LocalTests.test_validation) ... ok
+test_zero_division (test_local.LocalTests.test_zero_division) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

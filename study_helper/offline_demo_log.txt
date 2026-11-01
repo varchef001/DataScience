@@ -1,0 +1,62 @@
+OFFLINE DEMONSTRATION: scripted tool choices and final answers; real tool execution.
+Not proof of live LLM behavior. The date difference is prepared by this test harness.
+
+=== Test 1 ===
+Prompt: What is 17.5% of 2,340?
+
+Step 1: calling model
+Tool: calculator
+Input: {"expression": "17.5 / 100 * 2340"}
+Output: {"result": 409.5}
+
+Step 2: calling model
+Step 2: final answer: 17.5% of 2,340 is 409.5.
+
+=== Test 2 ===
+Prompt: What is today's date?
+
+Step 1: calling model
+Tool: current_date
+Input: {}
+Output: {"date": "2026-10-28", "timezone": "America/Chicago", "day_of_year": 301, "days_in_year": 365, "month_lengths": [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]}
+
+Step 2: calling model
+Step 2: final answer: Today's date is 2026-10-28 (America/Chicago).
+
+=== Test 3 ===
+Prompt: What do my notes say about gradient descent?
+
+Step 1: calling model
+Tool: notes_search
+Input: {"query": "gradient descent"}
+Output: {"matches": [{"file": "machine_learning.md", "line": 2, "text": "Gradient descent is an optimization method that reduces a loss function."}, {"file": "machine_learning.md", "line": 3, "text": "Gradient descent updates parameters in the opposite direction of the gradient."}, {"file": "machine_learning.md", "line": 4, "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."}, {"file": "machine_learning.md", "line": 5, "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."}], "limit_reached": false}
+
+Step 2: calling model
+Step 2: final answer: The notes say gradient descent reduces loss by updating parameters opposite the gradient (machine_learning.md:2-4).
+
+=== Test 4 ===
+Prompt: How many days until 15 December, and what do my notes say about gradient descent?
+
+Step 1: calling model
+Tool: current_date
+Input: {}
+Output: {"date": "2026-10-28", "timezone": "America/Chicago", "day_of_year": 301, "days_in_year": 365, "month_lengths": [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]}
+
+Step 2: calling model
+Tool: calculator
+Input: {"expression": "739965 - 739917"}
+Output: {"result": 48}
+
+Step 3: calling model
+Tool: notes_search
+Input: {"query": "gradient descent"}
+Output: {"matches": [{"file": "machine_learning.md", "line": 2, "text": "Gradient descent is an optimization method that reduces a loss function."}, {"file": "machine_learning.md", "line": 3, "text": "Gradient descent updates parameters in the opposite direction of the gradient."}, {"file": "machine_learning.md", "line": 4, "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."}, {"file": "machine_learning.md", "line": 5, "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."}], "limit_reached": false}
+
+Step 4: calling model
+Step 4: final answer: There are 48 days until 2026-12-15, excluding today. Gradient descent updates parameters opposite the gradient (machine_learning.md:3).
+
+=== Test 5 ===
+Prompt: What exact score will I get on my next exam?
+
+Step 1: calling model
+Step 1: final answer: I cannot predict your exact exam score. My tools only calculate, read the current date, and search notes.
