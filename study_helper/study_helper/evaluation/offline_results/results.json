@@ -1,0 +1,820 @@
+{
+  "summary": {
+    "mode": "scripted_offline",
+    "total": 15,
+    "passed": 15,
+    "groups": [
+      {
+        "case": "percentage",
+        "passed": 3,
+        "total": 3,
+        "all_three_correct": true,
+        "same_status": true,
+        "same_text": true
+      },
+      {
+        "case": "today",
+        "passed": 3,
+        "total": 3,
+        "all_three_correct": true,
+        "same_status": true,
+        "same_text": true
+      },
+      {
+        "case": "notes",
+        "passed": 3,
+        "total": 3,
+        "all_three_correct": true,
+        "same_status": true,
+        "same_text": true
+      },
+      {
+        "case": "combined",
+        "passed": 3,
+        "total": 3,
+        "all_three_correct": true,
+        "same_status": true,
+        "same_text": true
+      },
+      {
+        "case": "unknown",
+        "passed": 3,
+        "total": 3,
+        "all_three_correct": true,
+        "same_status": true,
+        "same_text": true
+      }
+    ],
+    "note": "Rule-based score; equivalent wording may fail and keyword overlap does not prove factual correctness. Review the answers."
+  },
+  "results": [
+    {
+      "case": "percentage",
+      "variant": 1,
+      "prompt": "What is 17.5% of 2,340?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "17.5% of 2,340 is 409.5.",
+      "request_id": "836f9df4bb0946e3ac0f0c1d6791fc30",
+      "answer": "17.5% of 2,340 is 409.5.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "calculator",
+          "input": "{\"expression\": \"17.5 / 100 * 2340\"}",
+          "output": {
+            "result": 409.5
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "no_unexpected_numbers": true
+      },
+      "passed": true
+    },
+    {
+      "case": "percentage",
+      "variant": 2,
+      "prompt": "Calculate 17.5 percent of 2340.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "17.5% of 2,340 is 409.5.",
+      "request_id": "42af74eb5d0f44b898050e67c7cb17a1",
+      "answer": "17.5% of 2,340 is 409.5.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "calculator",
+          "input": "{\"expression\": \"17.5 / 100 * 2340\"}",
+          "output": {
+            "result": 409.5
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "no_unexpected_numbers": true
+      },
+      "passed": true
+    },
+    {
+      "case": "percentage",
+      "variant": 3,
+      "prompt": "If I take 17.5 percent of 2,340, how much is that?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "17.5% of 2,340 is 409.5.",
+      "request_id": "82fa7bde803f46b7a8932d89bad40b7a",
+      "answer": "17.5% of 2,340 is 409.5.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "calculator",
+          "input": "{\"expression\": \"17.5 / 100 * 2340\"}",
+          "output": {
+            "result": 409.5
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "no_unexpected_numbers": true
+      },
+      "passed": true
+    },
+    {
+      "case": "today",
+      "variant": 1,
+      "prompt": "What is today's date?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Today's date is 2026-11-02.",
+      "request_id": "4f421a811ad6497ead358855d11d6c95",
+      "answer": "Today's date is 2026-11-02.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "date_answer": true
+      },
+      "passed": true
+    },
+    {
+      "case": "today",
+      "variant": 2,
+      "prompt": "Tell me the current date.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Today's date is 2026-11-02.",
+      "request_id": "905af171b3064648b6567dde691dba6f",
+      "answer": "Today's date is 2026-11-02.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "date_answer": true
+      },
+      "passed": true
+    },
+    {
+      "case": "today",
+      "variant": 3,
+      "prompt": "Which date is it today?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Today's date is 2026-11-02.",
+      "request_id": "1e3b90e9846b4c63b59bb6e644c03f89",
+      "answer": "Today's date is 2026-11-02.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "date_answer": true
+      },
+      "passed": true
+    },
+    {
+      "case": "notes",
+      "variant": 1,
+      "prompt": "What do my notes say about gradient descent?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Gradient descent reduces loss by updating parameters in the opposite direction of the gradient.",
+      "request_id": "7ec87976e80b40b6a186e21ce3d70102",
+      "answer": "Gradient descent reduces loss by updating parameters opposite the gradient.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "notes",
+      "variant": 2,
+      "prompt": "Summarize gradient descent from my study notes.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Gradient descent reduces loss by updating parameters in the opposite direction of the gradient.",
+      "request_id": "f25be39d804441f0975ad8593c83339a",
+      "answer": "Gradient descent reduces loss by updating parameters opposite the gradient.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "notes",
+      "variant": 3,
+      "prompt": "Find the explanation of gradient descent in my notes.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "Gradient descent reduces loss by updating parameters in the opposite direction of the gradient.",
+      "request_id": "05b9ab614f7340edb0921d59288c76e4",
+      "answer": "Gradient descent reduces loss by updating parameters opposite the gradient.",
+      "status": "answered",
+      "steps": 2,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "combined",
+      "variant": 1,
+      "prompt": "How many days until 15 December, and what do my notes say about gradient descent?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "43 days until 2026-12-15; gradient descent updates parameters opposite the gradient to reduce loss.",
+      "request_id": "120e0d02e88c4654a54b795106d853f2",
+      "answer": "There are 43 days until the next December 15. Gradient descent updates parameters opposite the gradient to reduce loss.",
+      "status": "answered",
+      "steps": 4,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        },
+        {
+          "step": 2,
+          "tool": "calculator",
+          "input": "{\"expression\": \"739965 - 739922\"}",
+          "output": {
+            "result": 43
+          }
+        },
+        {
+          "step": 3,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "day_count": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "combined",
+      "variant": 2,
+      "prompt": "Using my notes, explain gradient descent and calculate the days left until December 15.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "43 days until 2026-12-15; gradient descent updates parameters opposite the gradient to reduce loss.",
+      "request_id": "0d4fff552af54ff081d17641cd3db5de",
+      "answer": "There are 43 days until the next December 15. Gradient descent updates parameters opposite the gradient to reduce loss.",
+      "status": "answered",
+      "steps": 4,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        },
+        {
+          "step": 2,
+          "tool": "calculator",
+          "input": "{\"expression\": \"739965 - 739922\"}",
+          "output": {
+            "result": 43
+          }
+        },
+        {
+          "step": 3,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "day_count": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "combined",
+      "variant": 3,
+      "prompt": "Find gradient descent in my notes and tell me how many days remain before the next December 15.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "43 days until 2026-12-15; gradient descent updates parameters opposite the gradient to reduce loss.",
+      "request_id": "1a97945d1bdc46ee959fd615ddb25bbb",
+      "answer": "There are 43 days until the next December 15. Gradient descent updates parameters opposite the gradient to reduce loss.",
+      "status": "answered",
+      "steps": 4,
+      "citations": [
+        {
+          "file": "machine_learning.md",
+          "line": 3
+        }
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "tool": "current_date",
+          "input": "{}",
+          "output": {
+            "date": "2026-11-02",
+            "timezone": "America/Chicago",
+            "day_of_year": 306,
+            "days_in_year": 365,
+            "month_lengths": [
+              31,
+              28,
+              31,
+              30,
+              31,
+              30,
+              31,
+              31,
+              30,
+              31,
+              30,
+              31
+            ]
+          }
+        },
+        {
+          "step": 2,
+          "tool": "calculator",
+          "input": "{\"expression\": \"739965 - 739922\"}",
+          "output": {
+            "result": 43
+          }
+        },
+        {
+          "step": 3,
+          "tool": "notes_search",
+          "input": "{\"query\": \"gradient descent\"}",
+          "output": {
+            "matches": [
+              {
+                "file": "machine_learning.md",
+                "line": 2,
+                "text": "Gradient descent is an optimization method that reduces a loss function."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 3,
+                "text": "Gradient descent updates parameters in the opposite direction of the gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 4,
+                "text": "The gradient descent update is: new weight = old weight - learning rate * gradient."
+              },
+              {
+                "file": "machine_learning.md",
+                "line": 5,
+                "text": "For gradient descent, a large learning rate can overshoot a minimum, while a small rate can make learning slow."
+              }
+            ],
+            "limit_reached": false
+          }
+        }
+      ],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "numeric_answer": true,
+        "day_count": true,
+        "note_concepts": true,
+        "note_citations": true
+      },
+      "passed": true
+    },
+    {
+      "case": "unknown",
+      "variant": 1,
+      "prompt": "What exact score will I get on my next exam?",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "I cannot determine your exact future exam score using these tools.",
+      "request_id": "43afff5f456440d1bdc5c405f7fff99f",
+      "answer": "I cannot predict your exact exam score with these tools.",
+      "status": "unable",
+      "steps": 1,
+      "citations": [],
+      "trace": [],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "clear_refusal": true,
+        "no_invented_score": true
+      },
+      "passed": true
+    },
+    {
+      "case": "unknown",
+      "variant": 2,
+      "prompt": "Predict the exact mark I will receive on my upcoming exam.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "I cannot determine your exact future exam score using these tools.",
+      "request_id": "7009de0704e64163b9799b0e34d95c58",
+      "answer": "I cannot predict your exact exam score with these tools.",
+      "status": "unable",
+      "steps": 1,
+      "citations": [],
+      "trace": [],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "clear_refusal": true,
+        "no_invented_score": true
+      },
+      "passed": true
+    },
+    {
+      "case": "unknown",
+      "variant": 3,
+      "prompt": "Tell me precisely what my next exam score will be.",
+      "mode": "scripted_offline",
+      "model": "gpt-4o-mini",
+      "reference": "I cannot determine your exact future exam score using these tools.",
+      "request_id": "40411a2c0e0b474f8c697913784d7146",
+      "answer": "I cannot predict your exact exam score with these tools.",
+      "status": "unable",
+      "steps": 1,
+      "citations": [],
+      "trace": [],
+      "validation_errors": [],
+      "checks": {
+        "status": true,
+        "response_validation": true,
+        "tool_selection": true,
+        "clear_refusal": true,
+        "no_invented_score": true
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+SCRIPTED OFFLINE DEMO: real tools, prepared decisions and answers. No LLM was called.
+{
+  "mode": "scripted_offline",
+  "total": 15,
+  "passed": 15,
+  "groups": [
+    {
+      "case": "percentage",
+      "passed": 3,
+      "total": 3,
+      "all_three_correct": true,
+      "same_status": true,
+      "same_text": true
+    },
+    {
+      "case": "today",
+      "passed": 3,
+      "total": 3,
+      "all_three_correct": true,
+      "same_status": true,
+      "same_text": true
+    },
+    {
+      "case": "notes",
+      "passed": 3,
+      "total": 3,
+      "all_three_correct": true,
+      "same_status": true,
+      "same_text": true
+    },
+    {
+      "case": "combined",
+      "passed": 3,
+      "total": 3,
+      "all_three_correct": true,
+      "same_status": true,
+      "same_text": true
+    },
+    {
+      "case": "unknown",
+      "passed": 3,
+      "total": 3,
+      "all_three_correct": true,
+      "same_status": true,
+      "same_text": true
+    }
+  ],
+  "note": "Rule-based score; equivalent wording may fail and keyword overlap does not prove factual correctness. Review the answers."
+}

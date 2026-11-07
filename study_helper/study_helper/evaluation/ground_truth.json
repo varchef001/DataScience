@@ -1,0 +1,46 @@
+{
+  "description": "Five manually defined cases, with three equivalent phrasings each. Date expectations are computed independently using datetime, not by the LLM or agent tools.",
+  "cases": [
+    {
+      "id": "percentage",
+      "prompts": ["What is 17.5% of 2,340?", "Calculate 17.5 percent of 2340.", "If I take 17.5 percent of 2,340, how much is that?"],
+      "expected_status": "answered",
+      "required_tools": ["calculator"],
+      "expected_number": 409.5,
+      "reference_answer": "17.5% of 2,340 is 409.5.",
+      "source": "Independent arithmetic: 2340 * 175 / 1000 = 409.5."
+    },
+    {
+      "id": "today",
+      "prompts": ["What is today's date?", "Tell me the current date.", "Which date is it today?"],
+      "expected_status": "answered",
+      "required_tools": ["current_date"],
+      "source": "Python datetime with the configured timezone; use the observed tool date only if the run crosses midnight."
+    },
+    {
+      "id": "notes",
+      "prompts": ["What do my notes say about gradient descent?", "Summarize gradient descent from my study notes.", "Find the explanation of gradient descent in my notes."],
+      "expected_status": "answered",
+      "required_tools": ["notes_search"],
+      "concept_groups": [["gradient descent"], ["opposite", "negative gradient"], ["loss", "minimiz", "optimization"]],
+      "reference_answer": "Gradient descent reduces loss by updating parameters in the opposite direction of the gradient.",
+      "source": "notes/machine_learning.md, lines 2-4; hand-reviewed reference, not model-generated."
+    },
+    {
+      "id": "combined",
+      "prompts": ["How many days until 15 December, and what do my notes say about gradient descent?", "Using my notes, explain gradient descent and calculate the days left until December 15.", "Find gradient descent in my notes and tell me how many days remain before the next December 15."],
+      "expected_status": "answered",
+      "required_tools": ["current_date", "calculator", "notes_search"],
+      "concept_groups": [["gradient descent"], ["opposite", "negative gradient"]],
+      "source": "Independent datetime subtraction, excluding today, plus machine_learning.md lines 2-4."
+    },
+    {
+      "id": "unknown",
+      "prompts": ["What exact score will I get on my next exam?", "Predict the exact mark I will receive on my upcoming exam.", "Tell me precisely what my next exam score will be."],
+      "expected_status": "unable",
+      "required_tools": [],
+      "reference_answer": "I cannot determine your exact future exam score using these tools.",
+      "source": "No available tool supplies future exam results."
+    }
+  ]
+}

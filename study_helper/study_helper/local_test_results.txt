@@ -1,0 +1,52 @@
+test_all_fifteen_scripted_variants (test_local.LocalTests.test_all_fifteen_scripted_variants)
+Check the evaluation harness using clearly labeled scripted answers. ... ok
+test_api_failure_and_malformed_reply (test_local.LocalTests.test_api_failure_and_malformed_reply)
+Network and protocol failures terminate cleanly. ... ok
+test_arithmetic (test_local.LocalTests.test_arithmetic)
+The calculator respects operators and rejects dangerous input. ... ok
+test_bad_input_never_calls_model (test_local.LocalTests.test_bad_input_never_calls_model)
+Invalid requests are logged but never sent to a model. ... ok
+test_config_cached (test_local.LocalTests.test_config_cached)
+All imports share one settings object without repeated environment reads. ... ok
+test_date (test_local.LocalTests.test_date)
+The tool's calendar metadata agrees with its ISO date. ... ok
+test_disk_logs_redact_key (test_local.LocalTests.test_disk_logs_redact_key)
+A configured API key is not written even if it appears in a prompt. ... ok
+test_duplicate_submission (test_local.LocalTests.test_duplicate_submission)
+Submitting the same prompt twice runs the agent only once per session. ... ok
+test_errors_return_to_model (test_local.LocalTests.test_errors_return_to_model)
+All ordinary tool dispatch failures become model-visible tool errors. ... ok
+test_evaluation_detects_wrong_answer (test_local.LocalTests.test_evaluation_detects_wrong_answer)
+A structurally valid but incorrect result fails ground-truth comparison. ... ok
+test_fabricated_citation_and_wrong_number (test_local.LocalTests.test_fabricated_citation_and_wrong_number)
+The validator rejects unsupported citations and numeric mismatches. ... ok
+test_ground_truth_dates (test_local.LocalTests.test_ground_truth_dates)
+Date truth handles same-day, next-year and leap-year boundaries. ... ok
+test_invalid_response_is_blocked (test_local.LocalTests.test_invalid_response_is_blocked)
+An unstructured answer is not displayed as a valid final answer. ... ok
+test_missing_key (test_local.LocalTests.test_missing_key)
+Missing API configuration gives a controlled error. ... ok
+test_notes (test_local.LocalTests.test_notes)
+Search is case-insensitive and returns empty results for absent terms. ... ok
+test_notes_need_retrieved_citations (test_local.LocalTests.test_notes_need_retrieved_citations)
+Note answers must cite a line that was actually retrieved. ... ok
+test_request_and_response_logging (test_local.LocalTests.test_request_and_response_logging)
+Each processed request gets one correlated final response event. ... ok
+test_step_limit (test_local.LocalTests.test_step_limit)
+Eight model calls are allowed, with no ninth call or final retry. ... ok
+test_tool_validation (test_local.LocalTests.test_tool_validation)
+Tools reject empty, oversized and wrong-type inputs. ... ok
+test_wrong_date_is_blocked (test_local.LocalTests.test_wrong_date_is_blocked)
+A date-only answer must match the date returned by the tool. ... ok
+test_empty_input (test_ui.UITests.test_empty_input)
+An empty submission produces a helpful error without running the agent. ... 2026-11-02 09:03:33.257 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_form_submission_and_rerun (test_ui.UITests.test_form_submission_and_rerun)
+Typing, rerendering and duplicate clicks must not create extra requests. ... 2026-11-02 09:03:33.528 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-02 09:03:33.528 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.494s
+
+OK

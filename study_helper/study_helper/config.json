@@ -1,0 +1,11 @@
+{
+  "default_model": "gpt-4o-mini",
+  "models": ["gpt-4o-mini", "gpt-4o"],
+  "max_steps": 8,
+  "timeout_seconds": 30,
+  "max_input_chars": 2000,
+  "max_response_chars": 6000,
+  "timezone": "America/Chicago",
+  "notes_folder": "notes",
+  "log_file": "logs/agent.jsonl"
+}
